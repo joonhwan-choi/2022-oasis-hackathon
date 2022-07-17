@@ -14,8 +14,8 @@
         android:src="@drawable/splash_slogan"
         />
     <ImageView
-        android:layout_width="139.1dp"
-        android:layout_height="139.1dp"
+        android:layout_width="193.7dp"
+        android:layout_height="189.5dp"
         android:src="@drawable/splash_symbol"
         android:layout_marginTop="-40dp" />
     <ImageView
