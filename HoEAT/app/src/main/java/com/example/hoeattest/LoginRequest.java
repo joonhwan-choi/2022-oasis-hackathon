@@ -33,7 +33,7 @@ public class LoginRequest extends StringRequest {
     }
 }
 
-// 네비게이션바 작동 코드
+
 //    View db_1 = (View) findViewById(R.id.bb_1) ;
 //        db_1.setOnClickListener(new Button.OnClickListener() {
 //@Override
