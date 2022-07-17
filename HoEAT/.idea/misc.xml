@@ -3,6 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+<<<<<<< Updated upstream
+=======
+        <entry key="..\:/Users/dlgkd/Desktop/HoEat/How-about-Yeosu-/HoEAT/app/src/main/res/drawable/border.xml" value="0.1745" />
+        <entry key="..\:/Users/dlgkd/Desktop/HoEat/How-about-Yeosu-/HoEAT/app/src/main/res/layout/activity_intro.xml" value="0.22780797101449277" />
+        <entry key="..\:/Users/dlgkd/Desktop/HoEat/How-about-Yeosu-/HoEAT/app/src/main/res/layout/activity_login.xml" value="0.22780797101449277" />
+        <entry key="..\:/Users/dlgkd/Desktop/HoEat/How-about-Yeosu-/HoEAT/app/src/main/res/layout/activity_main.xml" value="0.22780797101449277" />
+        <entry key="..\:/Users/dlgkd/Desktop/HoEat/How-about-Yeosu-/HoEAT/app/src/main/res/layout/activity_mbti.xml" value="0.22780797101449277" />
+        <entry key="..\:/Users/dlgkd/Desktop/HoEat/How-about-Yeosu-/HoEAT/app/src/main/res/layout/activity_mbticonfirm.xml" value="0.22780797101449277" />
+        <entry key="..\:/Users/dlgkd/Desktop/HoEat/How-about-Yeosu-/HoEAT/app/src/main/res/layout/activity_myreview.xml" value="0.22780797101449277" />
+        <entry key="..\:/Users/dlgkd/Desktop/HoEat/How-about-Yeosu-/HoEAT/app/src/main/res/layout/activity_mytrip.xml" value="0.264" />
+        <entry key="..\:/Users/dlgkd/Desktop/HoEat/How-about-Yeosu-/HoEAT/app/src/main/res/layout/activity_noticeboard.xml" value="0.22780797101449277" />
+        <entry key="..\:/Users/dlgkd/Desktop/HoEat/How-about-Yeosu-/HoEAT/app/src/main/res/layout/activity_register.xml" value="0.22780797101449277" />
+        <entry key="..\:/Users/dlgkd/Desktop/HoEat/How-about-Yeosu-/HoEAT/app/src/main/res/layout/activity_writereview.xml" value="0.22780797101449277" />
+        <entry key="..\:/Users/dlgkd/Desktop/HoEat/How-about-Yeosu-/HoEAT/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1205" />
+>>>>>>> Stashed changes
         <entry key="..\:/Users/joonhwan/AndroidStudioProjects/HoEATtest/app/src/main/res/layout/RegisterActivity.xml" value="0.3125" />
         <entry key="..\:/Users/joonhwan/AndroidStudioProjects/HoEATtest/app/src/main/res/layout/activity_intro.xml" value="0.2644927536231884" />
         <entry key="..\:/Users/joonhwan/AndroidStudioProjects/HoEATtest/app/src/main/res/layout/activity_login.xml" value="0.40074906367041196" />
@@ -14,6 +29,7 @@
         <entry key="..\:/Users/joonhwan/AndroidStudioProjects/HoEATtest/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.241" />
         <entry key="..\:/Users/joonhwan/Desktop/HoEAT/HoEAT/HoEAT/app/src/main/res/layout/activity_main.xml" value="0.49212962962962964" />
         <entry key="..\:/Users/joonhwan/Desktop/HoEAT/HoEAT/HoEATtest/app/src/main/res/layout/activity_main.xml" value="0.49212962962962964" />
+<<<<<<< Updated upstream
         <entry key="..\:/Users/joonhwan/Desktop/How-about-Yeosu-/HoEAT/app/src/main/res/drawable/navi_circle.xml" value="0.1605" />
         <entry key="..\:/Users/joonhwan/Desktop/How-about-Yeosu-/HoEAT/app/src/main/res/layout/activity_intro.xml" value="0.25" />
         <entry key="..\:/Users/joonhwan/Desktop/How-about-Yeosu-/HoEAT/app/src/main/res/layout/activity_login.xml" value="0.25" />
@@ -27,6 +43,8 @@
         <entry key="..\:/Users/joonhwan/Desktop/How-about-Yeosu-/HoEAT/app/src/main/res/layout/navigation_bar.xml" value="0.35280797101449274" />
         <entry key="..\:/Users/joonhwan/Desktop/How-about-Yeosu-/HoEAT/app/src/main/res/menu/navigation.xml" value="0.3425925925925926" />
         <entry key="..\:/Users/joonhwan/Desktop/How-about-Yeosu-/HoEAT/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.184" />
+=======
+>>>>>>> Stashed changes
       </map>
     </option>
   </component>
