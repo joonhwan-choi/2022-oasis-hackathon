@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MbticonfirmActivity"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_horizontal"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="홍길동님의 여행 MBTI는 "/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ESFJ"
+                android:textSize="50dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=": 동행을 세심하게 배려하는 타입. 예기치 못한 상황에 겅정이 많은 편이라 굳이 체력 소모하는 여행지보다는 여행 코스짜기 명확하고 쉬운 여행지 추천 "/>
+        </LinearLayout>
+        <LinearLayout
+            android:paddingTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <TextView
+
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:text="나와 잘 맞는 여행메이트는"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:text="ISFP, ISTP"
+                android:textSize="30dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+
+
+</LinearLayout>
