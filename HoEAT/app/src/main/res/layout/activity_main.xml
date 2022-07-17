@@ -21,7 +21,7 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/main_알림1" />
+                android:src="@drawable/main_notice1" />
 
         </LinearLayout>
 
@@ -32,7 +32,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="186dp"
                 android:scaleType="centerCrop"
-                android:src="@drawable/main_환영글" />
+                android:src="@drawable/main_welcome" />
         </LinearLayout>
 
         <LinearLayout
@@ -59,11 +59,11 @@
             <ImageView
                 android:layout_width="18dp"
                 android:layout_height="18dp"
-                android:src="@drawable/main_여행지"/>
+                android:src="@drawable/main_traveldestination"/>
             <ImageView
                 android:layout_width="7.8dp"
                 android:layout_height="12.6dp"
-                android:src="@drawable/main_더보기"
+                android:src="@drawable/main_more"
                 android:layout_marginLeft="240dp"
                 android:layout_marginTop="10dp"/>
 
@@ -84,28 +84,28 @@
                     <ImageView
                         android:layout_width="71dp"
                         android:layout_height="71dp"
-                        android:src="@drawable/main_광주"
+                        android:src="@drawable/main_gwangju"
                         android:layout_marginRight="7dp"/>
 
                     <ImageView
                         android:layout_width="71dp"
                         android:layout_height="71dp"
-                        android:src="@drawable/main_전주"
+                        android:src="@drawable/main_jeonju"
                         android:layout_marginRight="7dp"/>
                     <ImageView
                         android:layout_width="71dp"
                         android:layout_height="71dp"
-                        android:src="@drawable/main_여수"
+                        android:src="@drawable/main_yeosu"
                         android:layout_marginRight="7dp"/>
                     <ImageView
                         android:layout_width="71dp"
                         android:layout_height="71dp"
-                        android:src="@drawable/main_순천"
+                        android:src="@drawable/main_suncheon"
                         android:layout_marginRight="7dp"/>
                     <ImageView
                         android:layout_width="71dp"
                         android:layout_height="71dp"
-                        android:src="@drawable/main_군산"
+                        android:src="@drawable/main_gunsan"
                         android:layout_marginRight="7dp"/>
 
                 </LinearLayout>
@@ -127,7 +127,7 @@
             <ImageView
                 android:layout_width="18dp"
                 android:layout_height="18dp"
-                android:src="@drawable/main_지역음식"/>
+                android:src="@drawable/main_localfood"/>
         </LinearLayout>
         <ScrollView
             android:layout_width="368dp"
@@ -141,25 +141,25 @@
                 <ImageView
                     android:layout_width="368dp"
                     android:layout_height="95dp"
-                    android:src="@drawable/main_간장게장"
+                    android:src="@drawable/main_soycrab"
                     android:scaleType="center"
                     android:layout_marginBottom="15dp"/>
                 <ImageView
                     android:layout_width="368dp"
                     android:layout_height="95dp"
-                    android:src="@drawable/main_간장게장"
+                    android:src="@drawable/main_soycrab"
                     android:scaleType="center"
                     android:layout_marginBottom="15dp"/>
                 <ImageView
                     android:layout_width="368dp"
                     android:layout_height="95dp"
-                    android:src="@drawable/main_간장게장"
+                    android:src="@drawable/main_soycrab"
                     android:scaleType="center"
                     android:layout_marginBottom="15dp"/>
                 <ImageView
                     android:layout_width="368dp"
                     android:layout_height="95dp"
-                    android:src="@drawable/main_간장게장"
+                    android:src="@drawable/main_soycrab"
                     android:scaleType="center"
                     android:layout_marginBottom="15dp"/>
             </LinearLayout>
