@@ -137,8 +137,7 @@
                 android:layout_width="300dp"
                 android:layout_height="40dp"
                 android:gravity="center_horizontal"
-                android:text="여행은 즐거우셨나요?\n가본 곳의 리뷰를 남겨주세요!"
-                android:textsize="20dp"/>
+                android:text="여행은 즐거우셨나요?\n가본 곳의 리뷰를 남겨주세요!"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
