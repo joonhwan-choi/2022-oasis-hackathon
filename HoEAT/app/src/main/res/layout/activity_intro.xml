@@ -5,13 +5,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".IntroActivity"
+    android:background="@drawable/splash_background"
+    android:orientation="vertical"
     android:gravity="center">
-
     <ImageView
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:src="@drawable/login_logo"
-        android:layout_gravity="center"
+        android:layout_width="141.9dp"
+        android:layout_height="141.9dp"
+        android:src="@drawable/splash_slogan"
+        />
+    <ImageView
+        android:layout_width="139.1dp"
+        android:layout_height="139.1dp"
+        android:src="@drawable/splash_symbol"
+        android:layout_marginTop="-40dp" />
+    <ImageView
+        android:layout_width="75.8dp"
+        android:layout_height="39.7dp"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/splash_logo"
         />
 
 
