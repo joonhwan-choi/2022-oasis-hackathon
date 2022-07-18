@@ -53,7 +53,7 @@ public class RegisterActivity extends AppCompatActivity {
 
 
 
-       UpdateNow();//화면에 텍스트뷰에 업데이트 해줌.
+//       UpdateNow();//화면에 텍스트뷰에 업데이트 해줌.
 
 
         // 아이디 값 찾아주기
