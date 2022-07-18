@@ -1,4 +1,6 @@
 package com.example.hoeattest;
 
-public class WriteReviewActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class WriteReviewActivity extends AppCompatActivity {
 }

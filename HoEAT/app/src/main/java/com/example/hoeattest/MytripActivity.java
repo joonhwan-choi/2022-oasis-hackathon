@@ -1,4 +1,6 @@
 package com.example.hoeattest;
 
-public class MytripActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class MytripActivity extends AppCompatActivity {
 }

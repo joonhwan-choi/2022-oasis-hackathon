@@ -1,4 +1,6 @@
 package com.example.hoeattest;
 
-public class NoticeboardActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class NoticeboardActivity extends AppCompatActivity {
 }
