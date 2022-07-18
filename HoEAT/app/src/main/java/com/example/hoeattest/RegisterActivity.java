@@ -1,12 +1,17 @@
 package com.example.hoeattest;
 
+import android.app.DatePickerDialog;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.DatePicker;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
+import java.util.Calendar;
 
+import java.util.GregorianCalendar;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.android.volley.RequestQueue;
@@ -18,22 +23,43 @@ import org.json.JSONObject;
 
 public class RegisterActivity extends AppCompatActivity {
 
-    private EditText et_id, et_pass, et_name, et_age, et_sex;
+    private EditText et_id, et_pass, et_name, et_age;
     String et_mbti;
     private Button btn_register;
-
+    private ImageView select;
+    int mYear, mMonth, mDay, mHour, mMinute;
     @Override
     protected void onCreate(Bundle savedInstanceState) { // 액티비티 시작시 처음으로 실행되는 생명주기!
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        // 아이디 값 찾아주기
         et_id = findViewById(R.id.et_id);
         et_pass = findViewById(R.id.et_pass);
         et_name = findViewById(R.id.et_name);
+        select = findViewById(R.id.select);
+
+
         et_mbti = "";
-        et_age = findViewById(R.id.et_age);
-        et_sex = findViewById(R.id.et_sex);
+        et_age=findViewById(R.id.et_age);
+        et_age.setFocusable(false);
+        et_age.setClickable(false);
+
+        Calendar cal = new GregorianCalendar();
+        mYear = cal.get(Calendar.YEAR);
+        mMonth = cal.get(Calendar.MONTH);
+        mDay = cal.get(Calendar.DAY_OF_MONTH);
+        mHour = cal.get(Calendar.HOUR_OF_DAY);
+        mMinute = cal.get(Calendar.MINUTE);
+
+
+
+       UpdateNow();//화면에 텍스트뷰에 업데이트 해줌.
+
+
+        // 아이디 값 찾아주기
+
+
+//        et_sex = findViewById(R.id.et_sex);
 
         // 회원가입 버튼 클릭 시 수행
         btn_register = findViewById(R.id.btn_register);
@@ -46,8 +72,8 @@ public class RegisterActivity extends AppCompatActivity {
                 String userName = et_name.getText().toString();
                 String userMbti = et_mbti;
                 int userAge = Integer.parseInt(et_age.getText().toString());
-                String userSex = et_sex.getText().toString();
-
+//                String userSex = et_sex.getText().toString();
+                String userSex = "";
                 Response.Listener<String> responseListener = new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
@@ -75,6 +101,51 @@ public class RegisterActivity extends AppCompatActivity {
 
             }
         });
+
+
+
+    }
+    DatePickerDialog.OnDateSetListener mDateSetListener =new DatePickerDialog.OnDateSetListener() {
+
+        @Override
+        public void onDateSet(DatePicker view, int year, int monthOfYear,int dayOfMonth) {
+
+            mYear = year;
+            mMonth = monthOfYear;
+            mDay = dayOfMonth;
+            UpdateNow();
+
+        }
+
+
+
+
+    };
+    public void mOnClick(View v){
+
+        switch(v.getId()){
+
+            //날짜 대화상자 버튼이 눌리면 대화상자를 보여줌
+
+            case R.id.select:
+
+                //여기서 리스너도 등록함
+
+                new DatePickerDialog(RegisterActivity.this, mDateSetListener, mYear,
+
+                        mMonth, mDay).show();
+
+                break;
+
+
+        }
+
+    }
+    void UpdateNow(){
+
+        et_age.setText(String.format("%d/%d/%d", mYear, mMonth + 1, mDay));
+
+
 
     }
 }

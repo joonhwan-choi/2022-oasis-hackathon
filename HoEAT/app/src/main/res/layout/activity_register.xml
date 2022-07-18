@@ -16,22 +16,67 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="96dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/signup_back"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginTop="62.5dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="회원가입"
+                    android:textSize="25dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_marginLeft="157.7dp"
+                    android:layout_marginTop="52.5dp"/>
+
+            </LinearLayout>
         </LinearLayout>
         <TextView
             android:layout_width="50dp"
             android:layout_height="27dp"
             android:text="아이디"
             android:textSize="18sp"
+            android:layout_marginTop="30dp"
             android:layout_marginLeft="22dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginBottom="14dp">
+            <EditText
+                android:id="@+id/et_id"
+                android:layout_width="312dp"
+                android:layout_height="59dp"
+                android:layout_marginLeft="25dp"
+                android:ems="10"
+                android:hint="아이디"
+                android:background="@drawable/register_edittext"
+                android:elevation="1dp"
+                android:paddingLeft="10dp"
+                android:drawablePadding="10dp"
+                android:inputType="textPersonName" />
+            <Button
+                android:layout_width="106dp"
+                android:layout_height="59dp"
+                android:text="중복확인"
+                android:textSize="16dp"
+                android:background="@drawable/register_button"
+                android:textColor="@color/white"/>
+        </LinearLayout>
 
-        <EditText
-            android:id="@+id/et_id"
-            android:layout_width="312dp"
-            android:layout_height="59dp"
-            android:layout_marginLeft="25dp"
-            android:ems="10"
-            android:hint="아이디"
-            android:inputType="textPersonName" />
 
 
         <TextView
@@ -43,11 +88,15 @@
 
         <EditText
             android:id="@+id/et_pass"
-            android:layout_width="312dp"
+            android:layout_width="427dp"
             android:layout_height="59dp"
             android:layout_marginLeft="25dp"
             android:ems="10"
             android:hint="비밀번호"
+            android:background="@drawable/register_edittext"
+            android:elevation="1dp"
+            android:paddingLeft="10dp"
+            android:drawablePadding="10dp"
             android:inputType="textPersonName" />
 
 
@@ -55,16 +104,21 @@
             android:layout_width="100dp"
             android:layout_height="27dp"
             android:text="비밀번호확인"
+            android:layout_marginTop="14dp"
             android:textSize="18sp"
             android:layout_marginLeft="22dp"/>
 
         <EditText
             android:id="@+id/et_repass"
-            android:layout_width="312dp"
+            android:layout_width="427dp"
             android:layout_height="59dp"
             android:layout_marginLeft="25dp"
             android:ems="10"
             android:hint="비밀번호재입력"
+            android:background="@drawable/register_edittext"
+            android:elevation="1dp"
+            android:paddingLeft="10dp"
+            android:drawablePadding="10dp"
             android:inputType="textPersonName" />
 
 
@@ -72,15 +126,20 @@
             android:layout_width="100dp"
             android:layout_height="27dp"
             android:text="이름"
+            android:layout_marginTop="14dp"
             android:textSize="18sp"
             android:layout_marginLeft="22dp"/>
 
         <EditText
             android:id="@+id/et_name"
-            android:layout_width="312dp"
+            android:layout_width="427dp"
             android:layout_height="59dp"
             android:layout_marginLeft="25dp"
             android:ems="10"
+            android:background="@drawable/register_edittext"
+            android:elevation="1dp"
+            android:paddingLeft="10dp"
+            android:drawablePadding="10dp"
             android:hint="이름 입력"
             android:inputType="textPersonName" />
 
@@ -88,42 +147,86 @@
             android:layout_width="100dp"
             android:layout_height="27dp"
             android:text="성별"
+            android:layout_marginTop="14dp"
             android:textSize="18sp"
             android:layout_marginLeft="22dp"/>
 
-        <EditText
-            android:id="@+id/et_sex"
-            android:layout_width="312dp"
-            android:layout_height="59dp"
-            android:layout_marginLeft="25dp"
-            android:ems="10"
-            android:hint="제플린 참고"
-            android:inputType="textPersonName" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
+
+
+            <Button
+                android:layout_width="214dp"
+                android:layout_height="59dp"
+                android:text="남성"
+                android:layout_marginLeft="25dp"
+                android:textSize="18dp"
+                android:textColor="@color/white"/>
+            <Button
+                android:layout_width="214dp"
+                android:layout_height="59dp"
+                android:text="여성"
+                android:textSize="18dp"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+`       <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
         <TextView
             android:layout_width="100dp"
             android:layout_height="27dp"
+            android:layout_marginTop="14dp"
             android:text="생년월일"
             android:textSize="18sp"
             android:layout_marginLeft="22dp"/>
 
         <EditText
             android:id="@+id/et_age"
-            android:layout_width="312dp"
+            android:layout_width="427dp"
             android:layout_height="59dp"
             android:layout_marginLeft="25dp"
             android:ems="10"
-            android:hint="제플린 참고"
-            android:inputType="textPersonName" />
+            android:hint="0000/00/00"
+            android:background="@drawable/register_edittext"
+            android:elevation="1dp"
+            android:paddingLeft="10dp"
+            android:drawablePadding="10dp"/>
 
+
+    </LinearLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:layout_marginLeft="390dp"
+            android:layout_marginTop="-55dp"
+            android:id="@+id/select"
+            android:src="@drawable/signup_select"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <Button
             android:id="@+id/btn_register"
-            android:layout_width="360dp"
-            android:layout_height="55dp"
-            android:layout_marginTop="50dp"
-            android:layout_marginBottom="65dp"
+            android:background="@drawable/register_button"
+            android:drawable="@drawable/register_button"
+            android:layout_width="427dp"
+            android:layout_height="65dp"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="132dp"
+
             android:text="회원가입" />
+
+
+    </LinearLayout>
+
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
