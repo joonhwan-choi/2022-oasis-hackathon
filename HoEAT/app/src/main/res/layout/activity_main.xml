@@ -46,7 +46,7 @@
                 android:layout_marginTop="21dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginRight="25dp"
-                android:text="어디로 떠나시나요?"
+                android:hint="어디로 떠나시나요?"
                 />
         </LinearLayout>
 
