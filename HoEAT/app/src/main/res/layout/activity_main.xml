@@ -19,10 +19,18 @@
             android:paddingRight="10dp">
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginRight="110dp"
+                android:layout_marginLeft="50dp"
+                android:src="@drawable/login_logo" />
+            <ImageView
+                android:layout_width="22dp"
+                android:layout_height="22dp"
                 android:layout_marginTop="50dp"
-                android:layout_marginRight="20dp"
+                android:layout_marginRight="21dp"
+                android:layout_marginLeft="50dp"
                 android:src="@drawable/main_notice1" />
 
         </LinearLayout>
