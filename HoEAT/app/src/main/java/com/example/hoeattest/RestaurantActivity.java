@@ -10,17 +10,17 @@ public class RestaurantActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_restaurant);
         TabHost tab_host = (TabHost) findViewById(R.id.tabhost);
         tab_host.setup();
 
-        TabHost.TabSpec ts1 = tab_host.newTabSpec("tab1");
-        ts1.setIndicator("tab1");
+        TabHost.TabSpec ts1 = tab_host.newTabSpec("맛집찾기");
+        ts1.setIndicator("맛집찾기");
         ts1.setContent(R.id.맛집찾기);
         tab_host.addTab(ts1);
 
-        TabHost.TabSpec ts2 = tab_host.newTabSpec("tab2");
-        ts2.setIndicator("tab2");
+        TabHost.TabSpec ts2 = tab_host.newTabSpec("동행찾기");
+        ts2.setIndicator("동행찾기");
         ts2.setContent(R.id.동행찾기);
         tab_host.addTab(ts2);
 

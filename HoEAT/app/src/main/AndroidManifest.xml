@@ -29,6 +29,8 @@
         <activity android:name=".MytripActivity"/>
         <activity android:name=".NoticeboardActivity"/>
         <activity android:name=".WriteReviewActivity"/>
+        <activity android:name=".RestaurantActivity"/>
+        <activity android:name=".FoodCategoryActivity"/>
 
 
 

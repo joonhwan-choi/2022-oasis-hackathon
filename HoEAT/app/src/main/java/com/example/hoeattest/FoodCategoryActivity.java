@@ -1,4 +1,6 @@
 package com.example.hoeattest;
 
-public class FoodCategoryActivity {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class FoodCategoryActivity extends AppCompatActivity {
 }
