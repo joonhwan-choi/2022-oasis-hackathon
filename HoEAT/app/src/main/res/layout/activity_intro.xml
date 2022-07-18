@@ -2,26 +2,30 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="477dp"
+    android:layout_height="1010dp"
     tools:context=".IntroActivity"
     android:background="@drawable/splash_background"
     android:orientation="vertical"
     android:gravity="center">
     <ImageView
-        android:layout_width="141.9dp"
-        android:layout_height="141.9dp"
+        android:layout_width="197.6dp"
+        android:layout_height="23.1dp"
+        android:layout_marginTop="224dp"
+        android:layout_marginLeft="139.7dp"
+        android:layout_marginRight="139.7dp"
         android:src="@drawable/splash_slogan"
         />
     <ImageView
         android:layout_width="193.7dp"
         android:layout_height="189.5dp"
         android:src="@drawable/splash_symbol"
-        android:layout_marginTop="-40dp" />
+        android:layout_marginTop="30.5dp" />
     <ImageView
-        android:layout_width="75.8dp"
-        android:layout_height="39.7dp"
+        android:layout_width="94.6dp"
+        android:layout_height="49.5dp"
         android:layout_marginTop="400dp"
+        android:layout_marginBottom="87.9dp"
         android:src="@drawable/splash_logo"
         />
 
