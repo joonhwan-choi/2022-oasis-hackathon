@@ -108,7 +108,7 @@
             android:layout_marginLeft="22dp"/>
 
         <EditText
-            android:id="@+id/et_dateofbirth"
+            android:id="@+id/et_age"
             android:layout_width="312dp"
             android:layout_height="59dp"
             android:layout_marginLeft="25dp"
