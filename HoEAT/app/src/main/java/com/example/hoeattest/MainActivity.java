@@ -8,23 +8,22 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-//    private TextView tv_id, tv_pass;
+    private TextView main_name;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        tv_id = findViewById(R.id.tv_id);
-//        tv_pass = findViewById(R.id.tv_pass);
+        main_name = findViewById(R.id.main_name);
 
 
 
-//        Intent intent = getIntent();
-//        String userID = intent.getStringExtra("userID");
-//        String userPass = intent.getStringExtra("userPass");
-//        tv_id.setText(userID);
-//        tv_pass.setText(userPass);
+
+        Intent intent = getIntent();
+        String userName = intent.getStringExtra("userName");
+        main_name.setText(userName);
+
 
     }
 }
