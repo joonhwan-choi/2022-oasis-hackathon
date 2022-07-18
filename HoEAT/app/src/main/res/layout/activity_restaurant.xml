@@ -8,6 +8,39 @@
     android:orientation="vertical"
     android:gravity="center">
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:gravity="right"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp">
+
+        <ImageView
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginLeft="25dp"
+        android:src="@drawable/yeosu_top_back" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="37dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginRight="90dp"
+            android:layout_marginLeft="50dp"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="게장 백반" />
+        <ImageView
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="21dp"
+            android:layout_marginLeft="50dp"
+            android:src="@drawable/main_notice1" />
+
+    </LinearLayout>
 
     <TabHost
         android:id="@+id/tabhost"
@@ -21,50 +54,96 @@
             <TabWidget
                 android:id="@android:id/tabs"
                 android:layout_width="fill_parent"
-                android:layout_height="wrap_content" >
+                android:layout_height="wrap_content">
             </TabWidget>
 
             <FrameLayout
                 android:id="@android:id/tabcontent"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent" >
+
                 <ScrollView
-                    android:id="@+id/tab1"
+                    android:id="@+id/맛집찾기"
                     android:layout_width="fill_parent"
-                    android:layout_height="fill_parent" >
+                    android:layout_height="fill_parent"
+                    android:background="#E6E6E6">
 
-                    <TableRow
-                        android:id="@+id/tableRow1"
-                        android:layout_width="fill_parent"
-                        android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="426dp"
+                            android:layout_height="213dp"
+                            android:orientation="vertical"
+                            android:layout_marginTop="17.8dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_marginBottom="17dp"
+                            android:background="@drawable/gaejang_kkokdol"/>
+
+                        <LinearLayout
+                            android:layout_width="426dp"
+                            android:layout_height="213dp"
+                            android:orientation="vertical"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_marginBottom="17dp"
+                            android:background="@drawable/gaejang_geobooki"/>
+
+                        <LinearLayout
+                            android:layout_width="426dp"
+                            android:layout_height="213dp"
+                            android:orientation="vertical"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_marginBottom="17dp"
+                            android:background="@drawable/gaejang_dooggeobi"/>
 
 
-                        <TextView
-                            android:id="@+id/textView1"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="test12"
-                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        <LinearLayout
+                            android:layout_width="426dp"
+                            android:layout_height="213dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_marginBottom="17dp"
+                            android:background="@drawable/gaejang_meongdong"
+                            android:orientation="vertical" />
 
-                        <TextView
-                            android:id="@+id/textView2"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="test2"
-                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        <LinearLayout
+                            android:layout_width="426dp"
+                            android:layout_height="213dp"
+                            android:orientation="vertical"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_marginBottom="17dp"
+                            android:background="@drawable/gaejang_cheongjeong"/>
 
-                        <Button
-                            android:id="@+id/button1"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:text="Button" />
 
-                    </TableRow>
+                        <LinearLayout
+                            android:layout_width="426dp"
+                            android:layout_height="213dp"
+                            android:orientation="vertical"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="25dp"
+                            android:layout_marginBottom="17dp"
+                            android:background="@drawable/gaejang_kkabi"/>
+
+
+
+
+                    </LinearLayout>
 
                 </ScrollView>
 
                 <ScrollView
-                    android:id="@+id/tab2"
+                    android:id="@+id/동행찾기"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" >
 
@@ -79,6 +158,9 @@
             </FrameLayout>
         </LinearLayout>
     </TabHost>
+
+
+
 
 
 </LinearLayout>
