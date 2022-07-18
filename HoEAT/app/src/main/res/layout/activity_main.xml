@@ -38,16 +38,31 @@
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_width="427dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="21dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginBottom="0dp"
+            android:background="@drawable/main_searchbar"
+            android:gravity="center_horizontal">
             <EditText
-                android:layout_width="430dp"
+                android:layout_width="300dp"
                 android:layout_height="65dp"
-                android:layout_marginTop="21dp"
-                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginRight="25dp"
+                android:layout_marginBottom="10dp"
                 android:hint="어디로 떠나시나요?"
                 />
+            <ImageButton
+                android:layout_width="42dp"
+                android:layout_height="43dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="00ff0000"
+                android:src="@drawable/main_searchbutton">
+            </ImageButton>
+
         </LinearLayout>
 
         <LinearLayout
