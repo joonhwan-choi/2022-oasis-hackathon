@@ -5,114 +5,180 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".WriteReviewActivity"
-    android:gravity="center_horizontal"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
 
     <LinearLayout
-        android:layout_width="300dp"
-        android:layout_height="880dp"
-        android:orientation="vertical"
-        android:gravity="center_vertical"
-        >
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:gravity="center_horizontal">
+            android:layout_height="91dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp">
+
+            <ImageButton
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="90dp"
+                android:background="#FFFFFF"
+                android:src="@drawable/yeosu_top_back" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="50dp"
+                android:layout_width="100dp"
+                android:layout_height="37dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="45dp"
+                android:layout_marginRight="90dp"
                 android:text="리뷰 쓰기"
-                android:textSize="40dp" />
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+
+            <ImageButton
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="21dp"
+                android:background="#FFFFFF"
+                android:src="@drawable/main_notice1" />
+
         </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#BDBDBD">
+        </View>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="57dp"
-            android:gravity="center_horizontal">
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="347dp"
-            android:background="@drawable/border"
-            android:gravity="center_horizontal"
-            android:orientation="vertical">
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#FFFFFF">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center_horizontal">
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp">
 
-                <EditText
-                    android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:ems="10"
-                    android:hint="음식점명"
-                    android:textSize="15dp" />
-            </LinearLayout>
+                    android:gravity="center_horizontal">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center_horizontal">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="0dp"
+                        android:gravity="center_horizontal">
 
-                <RatingBar
-                    android:layout_width="wrap_content"
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginRight="0dp"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:textSize="22dp"
+                            android:text="꽃돌게장 1번가" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:numStars="6"
-                    android:rating="3"
-                    android:stepSize="3"
-                    app:layout_constraintLeft_toLeftOf="parent"
-                    app:layout_constraintRight_toRightOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
+                    android:gravity="center_horizontal">
+
+                    <RatingBar
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="0dp"
+                        android:numStars="5"
+                        android:rating="4"
+                        android:stepSize="1"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="510dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/review_write_back">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="510dp"
+                        android:layout_marginLeft="0dp"
+                        android:gravity="center_horizontal">
+
+
+                        <EditText
+                            android:layout_width="400dp"
+                            android:layout_height="500dp"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:hint="  내용을 입력하세요."
+                            android:textSize="15dp" />
+                    </LinearLayout>
+                </LinearLayout>
+
+
             </LinearLayout>
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="0dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:gravity="center_horizontal">
-
-                <EditText
-                    android:layout_width="wrap_content"
-                    android:layout_height="220dp"
-                    android:layout_weight="1"
-                    android:ems="10"
-                    android:hint="리뷰작성"
-                    android:textSize="15dp" />
+                android:layout_height="100dp"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/writereviewfinishButton"
+                    android:layout_width="427dp"
+                    android:layout_height="65dp"
+                    android:backgroundTint="#2be0b3"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp"
+                    android:textColor="#FFFFFF"
+                    android:text="작성 완료">
+                </Button>
             </LinearLayout>
         </LinearLayout>
-
-        <LinearLayout
-            android:paddingTop="13dp"
-            android:layout_width="match_parent"
-            android:layout_height="50dp">
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:gravity="center_horizontal">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="200dp"
-                android:text="작성완료"
-                android:textSize="22dp"/>
-        </LinearLayout>
-
     </LinearLayout>
-
-    <include
-        layout="@layout/navigation_bar">
-
-    </include>
-
 </LinearLayout>
