@@ -6,6 +6,7 @@ import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -73,6 +74,8 @@ public class MbtiQ6Activity extends AppCompatActivity {
 
                     MbtiTrue6.setImageResource(R.drawable.mbti_select_yes);
                     MbtiFalse6.setImageResource(R.drawable.mbti_not_select_no);
+                }else if(yesorno==0){
+                    Toast.makeText(getApplicationContext(),"선택해주세요",Toast.LENGTH_SHORT).show();
                 }
 
             }

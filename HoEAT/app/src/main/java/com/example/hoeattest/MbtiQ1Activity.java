@@ -8,12 +8,21 @@ import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
 public class MbtiQ1Activity extends AppCompatActivity {
     ImageView mbt1bak,MbtiTrue1, MbtiFalse1;
+    private int E;
+    private int I;
+    private int S;
+    private int N;
+    private int T;
+    private int F;
+    private int J;
+    private int P;
     Button MbtiNextButton1;
     int yesorno =0;
     @Override
@@ -78,6 +87,8 @@ public class MbtiQ1Activity extends AppCompatActivity {
 
                     MbtiTrue1.setImageResource(R.drawable.mbti_select_yes);
                     MbtiFalse1.setImageResource(R.drawable.mbti_not_select_no);
+                }else if(yesorno==0){
+                    Toast.makeText(getApplicationContext(),"선택해주세요",Toast.LENGTH_SHORT).show();
                 }
 
             }
