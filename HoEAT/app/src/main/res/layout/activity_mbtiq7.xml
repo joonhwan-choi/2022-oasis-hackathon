@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MbtiQ7Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp">
+
+            <ImageButton
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="165dp"
+                android:layout_marginLeft="25dp"
+                android:src="@drawable/yeosu_top_back"
+                android:background="#FFFFFF"/>
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginRight="0dp"
+                android:src="@drawable/login_logo" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#E6E6E6">
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="40dp"
+                android:layout_marginRight="45dp"
+                android:src="@drawable/question_7" >
+            </ImageView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="27dp"
+                android:layout_marginBottom="23.7dp"
+                android:text="step 7 of 12"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:textColor="#000000">
+            </TextView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="233.1dp"
+                    android:layout_height="8dp"
+                    android:layout_marginLeft="45dp"
+                    android:background="#2be0b3">
+                </View>
+
+                <View
+                    android:layout_width="166.9dp"
+                    android:layout_height="8dp"
+                    android:background="#f8f8f8">
+                </View>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/MbtiTrue7"
+                android:layout_width="390dp"
+                android:layout_height="63.7dp"
+                android:backgroundTint="#CEF6EC"
+                android:layout_marginTop="27.3dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="45dp"
+                android:layout_marginBottom="8.65dp"
+                android:textSize="17sp"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:text="그렇다">
+            </Button>
+
+            <Button
+                android:id="@+id/MbtiFalse7"
+                android:layout_width="390dp"
+                android:layout_height="63.7dp"
+                android:backgroundTint="#CEF6EC"
+                android:layout_marginTop="8.65dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="45dp"
+                android:textSize="17sp"
+                android:gravity="center_vertical"
+                android:textColor="#000000"
+                android:text="아니다">
+            </Button>
+
+
+            <Button
+                android:id="@+id/MbtiNextButton7"
+                android:layout_width="427dp"
+                android:layout_height="65dp"
+                android:backgroundTint="#2be0b3"
+                android:layout_marginTop="420.3dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="63dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:text="다음">
+            </Button>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
