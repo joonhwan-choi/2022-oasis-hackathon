@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/dlgkd/Desktop/HoEat/How-about-Yeosu-/HoEAT/app/src/main/res/drawable/border.xml" value="0.187" />
         <entry key="..\:/Users/dlgkd/Desktop/HoEat/How-about-Yeosu-/HoEAT/app/src/main/res/layout/activity_foodcategory.xml" value="0.128" />
         <entry key="..\:/Users/dlgkd/Desktop/HoEat/How-about-Yeosu-/HoEAT/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/dlgkd/Desktop/HoEat/How-about-Yeosu-/HoEAT/app/src/main/res/layout/activity_mbti.xml" value="0.15217391304347827" />
@@ -15,6 +16,7 @@
         <entry key="..\:/Users/dlgkd/Desktop/HoEat/How-about-Yeosu-/HoEAT/app/src/main/res/layout/activity_noticeboard.xml" value="0.15217391304347827" />
         <entry key="..\:/Users/dlgkd/Desktop/HoEat/How-about-Yeosu-/HoEAT/app/src/main/res/layout/activity_register.xml" value="0.14402173913043478" />
         <entry key="..\:/Users/dlgkd/Desktop/HoEat/How-about-Yeosu-/HoEAT/app/src/main/res/layout/activity_restaurant.xml" value="0.152" />
+        <entry key="..\:/Users/dlgkd/Desktop/HoEat/How-about-Yeosu-/HoEAT/app/src/main/res/layout/activity_writereview.xml" value="0.14855072463768115" />
         <entry key="..\:/Users/joonhwan/AndroidStudioProjects/HoEATtest/app/src/main/res/layout/RegisterActivity.xml" value="0.3125" />
         <entry key="..\:/Users/joonhwan/AndroidStudioProjects/HoEATtest/app/src/main/res/layout/activity_intro.xml" value="0.2644927536231884" />
         <entry key="..\:/Users/joonhwan/AndroidStudioProjects/HoEATtest/app/src/main/res/layout/activity_login.xml" value="0.40074906367041196" />
