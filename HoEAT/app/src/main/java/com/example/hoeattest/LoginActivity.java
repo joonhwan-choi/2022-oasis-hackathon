@@ -82,7 +82,7 @@ public class LoginActivity extends AppCompatActivity {
                                     intent.putExtra("userName",userName);
                                     startActivity(intent);
                                 }else{
-                                    Intent intent = new Intent(LoginActivity.this, MbtiActivity.class);
+                                    Intent intent = new Intent(LoginActivity.this, MbtiStartActivity.class);
                                     intent.putExtra("userID", userID);
                                     intent.putExtra("userPass", userPass);
                                     intent.putExtra("userMbti", userMbti);

@@ -23,6 +23,7 @@
                 android:layout_marginTop="50dp"
                 android:layout_marginRight="165dp"
                 android:layout_marginLeft="25dp"
+                android:id="@+id/mbt1bak"
                 android:src="@drawable/yeosu_top_back"
                 android:background="#FFFFFF"/>
 
@@ -52,7 +53,8 @@
                 android:layout_marginLeft="45dp"
                 android:layout_marginTop="40dp"
                 android:layout_marginRight="45dp"
-                android:src="@drawable/question_1" >
+                android:src="@drawable/question_1"
+                android:paddingBottom="39dp">
             </ImageView>
 
             <TextView
@@ -88,34 +90,28 @@
 
             </LinearLayout>
 
-            <Button
+            <ImageView
                 android:id="@+id/MbtiTrue1"
                 android:layout_width="390dp"
                 android:layout_height="63.7dp"
-                android:backgroundTint="#CEF6EC"
+                android:src="@drawable/mbti_select_yes"
                 android:layout_marginTop="27.3dp"
                 android:layout_marginRight="25dp"
                 android:layout_marginLeft="45dp"
                 android:layout_marginBottom="8.65dp"
-                android:textSize="17sp"
-                android:gravity="center_vertical"
-                android:textColor="#000000"
-                android:text="그렇다">
-            </Button>
+                android:gravity="center_vertical">
+            </ImageView>
 
-            <Button
+
+            <ImageView
                 android:id="@+id/MbtiFalse1"
                 android:layout_width="390dp"
                 android:layout_height="63.7dp"
-                android:backgroundTint="#CEF6EC"
+                android:src="@drawable/mbti_select_no"
                 android:layout_marginTop="8.65dp"
                 android:layout_marginRight="25dp"
-                android:layout_marginLeft="45dp"
-                android:textSize="17sp"
-                android:gravity="center_vertical"
-                android:textColor="#000000"
-                android:text="아니다">
-            </Button>
+                android:layout_marginLeft="45dp">
+            </ImageView>
 
 
             <Button
@@ -123,7 +119,7 @@
                 android:layout_width="427dp"
                 android:layout_height="65dp"
                 android:backgroundTint="#2be0b3"
-                android:layout_marginTop="420.3dp"
+                android:layout_marginTop="400.3dp"
                 android:layout_marginRight="25dp"
                 android:layout_marginLeft="25dp"
                 android:layout_marginBottom="63dp"
