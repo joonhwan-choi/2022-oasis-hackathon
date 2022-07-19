@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -21,7 +22,9 @@ public class LoginActivity extends AppCompatActivity {
     private EditText et_id, et_pass;
     private Button btn_login;
     private TextView btn_register;
-
+    //네비
+    private ImageView nv_main1,nv_main2,nv_main3;
+    //
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,6 +34,13 @@ public class LoginActivity extends AppCompatActivity {
         et_pass = findViewById(R.id.et_pass);
         btn_login = findViewById(R.id.btn_login);
         btn_register = findViewById(R.id.btn_register);
+
+        //네비
+        nv_main1=findViewById(R.id.nv_main1);
+        nv_main2=findViewById(R.id.nv_main2);
+        nv_main3=findViewById(R.id.nv_main3);
+        //
+
 
 
         // 회원가입 버튼을 클릭 시 수행
@@ -94,6 +104,20 @@ public class LoginActivity extends AppCompatActivity {
                 queue.add(loginRequest);
             }
         });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     }

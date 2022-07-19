@@ -4,11 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="950dp"
         android:orientation="vertical">
 
         <LinearLayout
@@ -156,6 +157,7 @@
                         android:layout_width="90dp"
                         android:layout_height="89dp"
                         android:src="@drawable/main_yeosu"
+                        android:id="@+id/main_yeosu"
                         android:layout_marginRight="8dp"/>
                     <ImageView
                         android:layout_width="90dp"
@@ -199,7 +201,7 @@
             android:layout_marginRight="25dp">
             <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="300dp">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -394,16 +396,48 @@
                     </LinearLayout>
                 </LinearLayout>
             </ScrollView>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <include
-                layout="@layout/navigation_bar"
-                tools:layout_editor_absoluteY="680dp">
 
-            </include>
         </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/register_edittext"
+
+        android:elevation="10dp"
+
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"
+        android:layout_marginTop="-50dp"
+        >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/nv_main1"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nav_chatting_off"
+        android:layout_marginLeft="84.5dp"
+        android:layout_marginTop="11dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="84.5dp"
+            android:id="@+id/nv_main2"
+            android:layout_marginTop="11dp"
+            android:src="@drawable/nav_home_on"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="84.5dp"
+            android:id="@+id/nv_main3"
+            android:layout_marginTop="11dp"
+            android:src="@drawable/nav_mypage_off"/>
 
     </LinearLayout>
 

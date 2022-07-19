@@ -13,7 +13,7 @@
         android:usesCleartextTraffic="true">
 
         <activity
-            android:name=".IntroActivity"
+            android:name=".FoodCategoryActivity"
             android:exported="true">
             <intent-filter>
 
@@ -21,19 +21,21 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".RegisterActivity" />
+<!--        <activity android:name=".FoodCategoryActivity" />-->
         <activity android:name=".LoginActivity"/>
+<!--        <activity android:name=".MainActivity"/>-->
         <activity android:name=".MbtiActivity"/>
+        <activity android:name=".MbticonfirmActivity"/>
+        <activity android:name=".MypageiActivity"/>
         <activity android:name=".MyreviewActivity"/>
         <activity android:name=".MytripActivity"/>
         <activity android:name=".NoticeboardActivity"/>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".RestaurantActivity" />
         <activity android:name=".WriteReviewActivity"/>
 
 
 
-        <activity android:name=".MainActivity">
-        </activity>
     </application>
 
 </manifest>
