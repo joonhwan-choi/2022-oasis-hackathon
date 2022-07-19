@@ -108,13 +108,11 @@
                 android:layout_width="400dp"
                 android:layout_height="41dp"
                 android:layout_marginLeft="40dp"
-                android:src="@drawable/result_my_type_is"
                 android:textAlignment="center"
-                android:text="MBTI, MBTI(여기는 궁합 결과)"
-                android:textSize="25sp"
+                android:textSize="30sp"
                 android:id="@+id/mbtisuggestion"
                 android:textStyle="bold"
-                android:textColor="#000000">
+                android:textColor="#0cb37f">
             </TextView>
 
             <ImageView
@@ -140,6 +138,7 @@
                 android:textSize="20sp"
                 android:textColor="#FFFFFF"
                 android:textStyle="bold"
+                android:background="@drawable/signup_button"
                 android:text="호잇과 함께 여행하기">
             </Button>
         </LinearLayout>
