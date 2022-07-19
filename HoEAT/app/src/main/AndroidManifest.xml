@@ -33,6 +33,22 @@
         <activity android:name=".RegisterActivity" />
         <activity android:name=".RestaurantActivity" />
         <activity android:name=".WriteReviewActivity"/>
+        <activity android:name=".RestaurantActivity"/>
+        <activity android:name=".FoodCategoryActivity"/>
+        <activity android:name=".MbtiStartActivity"/>
+        <activity android:name=".MbtiQ1Activity"/>
+        <activity android:name=".MbtiQ2Activity"/>
+        <activity android:name=".MbtiQ3Activity"/>
+        <activity android:name=".MbtiQ4Activity"/>
+        <activity android:name=".MbtiQ5Activity"/>
+        <activity android:name=".MbtiQ6Activity"/>
+        <activity android:name=".MbtiQ7Activity"/>
+        <activity android:name=".MbtiQ8Activity"/>
+        <activity android:name=".MbtiQ9Activity"/>
+        <activity android:name=".MbtiQ10Activity"/>
+        <activity android:name=".MbtiQ11Activity"/>
+        <activity android:name=".MbtiQ12Activity"/>
+        <activity android:name=".MbtiResultActivity"/>
 
 
 
