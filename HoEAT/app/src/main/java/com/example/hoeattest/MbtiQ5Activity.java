@@ -91,7 +91,7 @@ public class MbtiQ5Activity extends AppCompatActivity {
         MbtiNextButton5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), MbtiQ5Activity.class);
+                Intent intent = new Intent(getApplicationContext(), MbtiQ6Activity.class);
                 if(yesorno==1){
                     J=J+1;
                 }else{
