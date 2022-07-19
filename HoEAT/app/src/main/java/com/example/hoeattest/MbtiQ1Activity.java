@@ -15,6 +15,9 @@ import androidx.core.content.ContextCompat;
 
 public class MbtiQ1Activity extends AppCompatActivity {
     ImageView mbt1bak,MbtiTrue1, MbtiFalse1;
+    Button MbtiNextButton1;
+    int yesorno =0;
+
     private int E;
     private int I;
     private int S;
@@ -23,8 +26,7 @@ public class MbtiQ1Activity extends AppCompatActivity {
     private int F;
     private int J;
     private int P;
-    Button MbtiNextButton1;
-    int yesorno =0;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,16 +37,6 @@ public class MbtiQ1Activity extends AppCompatActivity {
         MbtiFalse1=findViewById(R.id.MbtiFalse1);
         MbtiNextButton1=findViewById(R.id.MbtiNextButton1);
 
-
-
-
-        MbtiNextButton1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), MbtiQ2Activity.class);
-                startActivity(intent);
-            }
-        });
         mbt1bak.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -87,9 +79,37 @@ public class MbtiQ1Activity extends AppCompatActivity {
 
                     MbtiTrue1.setImageResource(R.drawable.mbti_select_yes);
                     MbtiFalse1.setImageResource(R.drawable.mbti_not_select_no);
-                }else if(yesorno==0){
-                    Toast.makeText(getApplicationContext(),"선택해주세요",Toast.LENGTH_SHORT).show();
+
+
+
+
                 }
+
+            }
+        });
+
+
+        MbtiNextButton1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                if(yesorno==1){
+                    N=N+1;
+                }else{
+                    S=S+1;
+                }
+                Intent intent = new Intent(getApplicationContext(), MbtiQ2Activity.class);
+                intent.putExtra("E", E);
+                intent.putExtra("I", I);
+                intent.putExtra("S", S);
+                intent.putExtra("N", N);
+                intent.putExtra("T", T);
+                intent.putExtra("F", F);
+                intent.putExtra("J", J);
+                intent.putExtra("P", P);
+
+
+                startActivity(intent);
 
             }
         });
