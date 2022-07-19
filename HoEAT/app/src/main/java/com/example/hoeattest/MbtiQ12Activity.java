@@ -14,12 +14,28 @@ public class MbtiQ12Activity extends AppCompatActivity {
     ImageView mbt12bak,MbtiTrue12, MbtiFalse12;
     Button MbtiNextButton12;
     int yesorno =0;
-
+    private int E;
+    private int I;
+    private int S;
+    private int N;
+    private int T;
+    private int F;
+    private int J;
+    private int P;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mbtiq12);
 
+        Intent intent = getIntent();
+        E=intent.getIntExtra("E",0);
+        I=intent.getIntExtra("I",0);
+        S = intent.getIntExtra("S", 0);
+        N = intent.getIntExtra("N", 0);
+        T = intent.getIntExtra("T", 0);
+        F = intent.getIntExtra("F", 0);
+        J = intent.getIntExtra("J", 0);
+        P = intent.getIntExtra("P", 0);
 
         mbt12bak=findViewById(R.id.mbt12bak);
         MbtiTrue12=findViewById(R.id.MbtiTrue12);
@@ -62,22 +78,23 @@ public class MbtiQ12Activity extends AppCompatActivity {
         MbtiFalse12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(yesorno==0){
-                    yesorno=2;
-
-                }else if(yesorno==2){
-
+                Intent intent = new Intent(getApplicationContext(), MbtiResultActivity.class);
+                if(yesorno==1){
+                    T=T+1;
                 }else{
-                    yesorno=2;
-                }
-                if(yesorno==2){
-
-                    MbtiTrue12.setImageResource(R.drawable.mbti_select_yes);
-                    MbtiFalse12.setImageResource(R.drawable.mbti_not_select_no);
-                }else if(yesorno==0){
-                    Toast.makeText(getApplicationContext(),"선택해주세요",Toast.LENGTH_SHORT).show();
+                    F=F+1;
                 }
 
+                intent.putExtra("E", E);
+                intent.putExtra("I", I);
+                intent.putExtra("S", S);
+                intent.putExtra("N", N);
+                intent.putExtra("T", T);
+                intent.putExtra("F", F);
+                intent.putExtra("J", J);
+                intent.putExtra("P", P);
+
+                startActivity(intent);
             }
         });
     }

@@ -14,24 +14,34 @@ public class MbtiQ6Activity extends AppCompatActivity {
     ImageView mbt6bak,MbtiTrue6, MbtiFalse6;
     Button MbtiNextButton6;
     int yesorno =0;
-
+    private int E;
+    private int I;
+    private int S;
+    private int N;
+    private int T;
+    private int F;
+    private int J;
+    private int P;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mbtiq6);
 
+        Intent intent = getIntent();
+        E=intent.getIntExtra("E",0);
+        I=intent.getIntExtra("I",0);
+        S = intent.getIntExtra("S", 0);
+        N = intent.getIntExtra("N", 0);
+        T = intent.getIntExtra("T", 0);
+        F = intent.getIntExtra("F", 0);
+        J = intent.getIntExtra("J", 0);
+        P = intent.getIntExtra("P", 0);
 
         mbt6bak=findViewById(R.id.mbt6bak);
         MbtiTrue6=findViewById(R.id.MbtiTrue6);
         MbtiFalse6=findViewById(R.id.MbtiFalse6);
         MbtiNextButton6=findViewById(R.id.MbtiNextButton6);
-        MbtiNextButton6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), MbtiQ7Activity.class);
-                startActivity(intent);
-            }
-        });
+
         mbt6bak.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -74,10 +84,32 @@ public class MbtiQ6Activity extends AppCompatActivity {
 
                     MbtiTrue6.setImageResource(R.drawable.mbti_select_yes);
                     MbtiFalse6.setImageResource(R.drawable.mbti_not_select_no);
-                }else if(yesorno==0){
-                    Toast.makeText(getApplicationContext(),"선택해주세요",Toast.LENGTH_SHORT).show();
                 }
 
+            }
+        });
+
+        MbtiNextButton6.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), MbtiQ7Activity.class);
+                if(yesorno==1){
+                    N=N+1;
+                }else{
+                    S=S+1;
+                }
+
+                intent.putExtra("E", E);
+                intent.putExtra("I", I);
+                intent.putExtra("S", S);
+                intent.putExtra("N", N);
+                intent.putExtra("T", T);
+                intent.putExtra("F", F);
+                intent.putExtra("J", J);
+                intent.putExtra("P", P);
+
+                startActivity(intent);
             }
         });
     }

@@ -14,6 +14,16 @@ public class MbtiQ3Activity extends AppCompatActivity {
     ImageView mbt3bak,MbtiTrue3, MbtiFalse3;
     Button MbtiNextButton3;
     int yesorno =0;
+    private int E;
+    private int I;
+    private int S;
+    private int N;
+    private int T;
+    private int F;
+    private int J;
+    private int P;
+
+
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -21,17 +31,21 @@ public class MbtiQ3Activity extends AppCompatActivity {
         setContentView(R.layout.activity_mbtiq3);
 
 
+        Intent intent = getIntent();
+        E=intent.getIntExtra("E",0);
+        I=intent.getIntExtra("I",0);
+        S = intent.getIntExtra("S", 0);
+        N = intent.getIntExtra("N", 0);
+        T = intent.getIntExtra("T", 0);
+        F = intent.getIntExtra("F", 0);
+        J = intent.getIntExtra("J", 0);
+        P = intent.getIntExtra("P", 0);
+
         mbt3bak=findViewById(R.id.mbt3bak);
         MbtiTrue3=findViewById(R.id.MbtiTrue3);
         MbtiFalse3=findViewById(R.id.MbtiFalse3);
         MbtiNextButton3=findViewById(R.id.MbtiNextButton3);
-        MbtiNextButton3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), MbtiQ4Activity.class);
-                startActivity(intent);
-            }
-        });
+
         mbt3bak.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -74,10 +88,30 @@ public class MbtiQ3Activity extends AppCompatActivity {
 
                     MbtiTrue3.setImageResource(R.drawable.mbti_select_yes);
                     MbtiFalse3.setImageResource(R.drawable.mbti_not_select_no);
-                }else if(yesorno==0){
-                    Toast.makeText(getApplicationContext(),"선택해주세요",Toast.LENGTH_SHORT).show();
                 }
 
+            }
+        });
+        MbtiNextButton3.setOnClickListener(new View.OnClickListener()  {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), MbtiQ4Activity.class);
+                if(yesorno==1){
+                    J=J+1;
+                }else{
+                    P=P+1;
+                }
+
+                intent.putExtra("E", E);
+                intent.putExtra("I", I);
+                intent.putExtra("S", S);
+                intent.putExtra("N", N);
+                intent.putExtra("T", T);
+                intent.putExtra("F", F);
+                intent.putExtra("J", J);
+                intent.putExtra("P", P);
+
+                startActivity(intent);
             }
         });
     }
