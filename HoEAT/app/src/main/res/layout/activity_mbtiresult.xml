@@ -63,20 +63,20 @@
                 android:textColor="#000000">
             </ImageView>
 
-            <TextView
-                android:layout_width="343dp"
-                android:layout_height="133dp"
-                android:layout_marginLeft="70dp"
-                android:src="@drawable/result_my_type_is"
-                android:textAlignment="center"
-                android:id="@+id/mbti"
-                android:text="ENFP"
-                android:textSize="100dp"
-                android:text="여기에는 MBTI 결과 나오는 부분\n제플린 참고"
-                android:textSize="25sp"
-                android:textStyle="bold"
-                android:textColor="#2be0b3">
-            </TextView>
+<!--            <TextView-->
+<!--                android:layout_width="343dp"-->
+<!--                android:layout_height="133dp"-->
+<!--                android:layout_marginLeft="70dp"-->
+<!--                android:src="@drawable/result_my_type_is"-->
+<!--                android:textAlignment="center"-->
+<!--                android:id="@+id/mbti"-->
+<!--                android:text="ENFP"-->
+<!--                android:textSize="100dp"-->
+<!--                android:text="여기에는 MBTI 결과 나오는 부분\n제플린 참고"-->
+<!--                android:textSize="25sp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="#2be0b3">-->
+<!--            </TextView>-->
 
 
             <TextView

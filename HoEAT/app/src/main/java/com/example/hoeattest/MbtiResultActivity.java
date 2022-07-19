@@ -72,45 +72,45 @@ public class MbtiResultActivity extends AppCompatActivity {
             d="j";
         }
 
-        mbti=findViewById(R.id.mbti);
-        MbtiStartButton=findViewById(R.id.MbtiStartButton);
-        mbtito=findViewById(R.id.mbtito);
-        mbtisuggestion=findViewById(R.id.mbtisuggestion);
-
-        mbti.setText(a+b+c+d);
-        if(mbti.getText().equals("INFP")){
-            mbtisuggestion.setText("ENFJ, ENTJ");
-        }else if(mbti.getText().equals("ENFP")) {
-            mbtisuggestion.setText("INFJ, INTJ");
-        }else if(mbti.getText().equals("INFJ")) {
-            mbtisuggestion.setText("ENFP, ENTP");
-        }else if(mbti.getText().equals("ENFJ")) {
-            mbtisuggestion.setText("INFP, ISFP");
-        }else if(mbti.getText().equals("INTJ")) {
-            mbtisuggestion.setText("ENFP, ENTP");
-        }else if(mbti.getText().equals("ENTJ")) {
-            mbtisuggestion.setText("INFP, INTP");
-        }else if(mbti.getText().equals("INTP")) {
-            mbtisuggestion.setText("INFJ, INTJ");
-        }else if(mbti.getText().equals("ENTP")) {
-            mbtisuggestion.setText("INFJ, ESFJ, ESTJ");
-        }else if(mbti.getText().equals("ISFP")) {
-            mbtisuggestion.setText("ISFJ, ISTJ");
-        }else if(mbti.getText().equals("ESFP")) {
-            mbtisuggestion.setText("ISFJ, ISTJ");
-        }else if(mbti.getText().equals("ISTP")) {
-            mbtisuggestion.setText("INFJ, ESFJ, ESTJ");
-        }else if(mbti.getText().equals("ESTP")) {
-            mbtisuggestion.setText("ISFJ, ISTJ");
-        }else if(mbti.getText().equals("ISFJ")) {
-            mbtisuggestion.setText("ESFP, ESTP");
-        }else if(mbti.getText().equals("ESFJ")) {
-            mbtisuggestion.setText("ISFP, ISTP");
-        }else if(mbti.getText().equals("ISTJ")) {
-            mbtisuggestion.setText("ESFP, ESTP");
-        }else if(mbti.getText().equals("ESTJ")) {
-            mbtisuggestion.setText("INTP, ISFP, ISTP");
-        }
+//        mbti=findViewById(R.id.mbti);
+//        MbtiStartButton=findViewById(R.id.MbtiStartButton);
+//        mbtito=findViewById(R.id.mbtito);
+//        mbtisuggestion=findViewById(R.id.mbtisuggestion);
+//
+//        mbti.setText(a+b+c+d);
+//        if(mbti.getText().equals("INFP")){
+//            mbtisuggestion.setText("ENFJ, ENTJ");
+//        }else if(mbti.getText().equals("ENFP")) {
+//            mbtisuggestion.setText("INFJ, INTJ");
+//        }else if(mbti.getText().equals("INFJ")) {
+//            mbtisuggestion.setText("ENFP, ENTP");
+//        }else if(mbti.getText().equals("ENFJ")) {
+//            mbtisuggestion.setText("INFP, ISFP");
+//        }else if(mbti.getText().equals("INTJ")) {
+//            mbtisuggestion.setText("ENFP, ENTP");
+//        }else if(mbti.getText().equals("ENTJ")) {
+//            mbtisuggestion.setText("INFP, INTP");
+//        }else if(mbti.getText().equals("INTP")) {
+//            mbtisuggestion.setText("INFJ, INTJ");
+//        }else if(mbti.getText().equals("ENTP")) {
+//            mbtisuggestion.setText("INFJ, ESFJ, ESTJ");
+//        }else if(mbti.getText().equals("ISFP")) {
+//            mbtisuggestion.setText("ISFJ, ISTJ");
+//        }else if(mbti.getText().equals("ESFP")) {
+//            mbtisuggestion.setText("ISFJ, ISTJ");
+//        }else if(mbti.getText().equals("ISTP")) {
+//            mbtisuggestion.setText("INFJ, ESFJ, ESTJ");
+//        }else if(mbti.getText().equals("ESTP")) {
+//            mbtisuggestion.setText("ISFJ, ISTJ");
+//        }else if(mbti.getText().equals("ISFJ")) {
+//            mbtisuggestion.setText("ESFP, ESTP");
+//        }else if(mbti.getText().equals("ESFJ")) {
+//            mbtisuggestion.setText("ISFP, ISTP");
+//        }else if(mbti.getText().equals("ISTJ")) {
+//            mbtisuggestion.setText("ESFP, ESTP");
+//        }else if(mbti.getText().equals("ESTJ")) {
+//            mbtisuggestion.setText("INTP, ISFP, ISTP");
+//        }
 
         MbtiStartButton.setOnClickListener(new View.OnClickListener() {
             @Override
