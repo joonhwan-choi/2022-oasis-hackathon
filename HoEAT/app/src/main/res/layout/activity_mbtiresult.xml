@@ -14,23 +14,16 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="91dp"
+            android:gravity="center_horizontal"
             android:paddingTop="10dp"
             android:paddingRight="10dp">
-
-            <ImageButton
-                android:layout_width="22dp"
-                android:layout_height="22dp"
-                android:layout_marginTop="50dp"
-                android:layout_marginRight="165dp"
-                android:layout_marginLeft="25dp"
-                android:src="@drawable/yeosu_top_back"
-                android:background="#FFFFFF"/>
 
             <ImageView
                 android:layout_width="45dp"
                 android:layout_height="45dp"
                 android:layout_marginTop="34dp"
-                android:layout_marginRight="0dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginLeft="80dp"
                 android:src="@drawable/login_logo" />
 
         </LinearLayout>
@@ -44,13 +37,108 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical"/>
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="343dp"
+                android:layout_height="37dp"
+                android:layout_marginTop="58dp"
+                android:layout_marginLeft="70dp"
+                android:src="@drawable/result_result"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#000000">
+            </ImageView>
+
+            <ImageView
+                android:layout_width="343dp"
+                android:layout_height="29dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/result_my_type_is"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#000000">
+            </ImageView>
+
+            <TextView
+                android:layout_width="343dp"
+                android:layout_height="133dp"
+                android:layout_marginLeft="70dp"
+                android:src="@drawable/result_my_type_is"
+                android:textAlignment="center"
+                android:text="여기에는 MBTI 결과 나오는 부분\n제플린참고"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#000000">
+            </TextView>
 
 
+            <TextView
+                android:layout_width="400dp"
+                android:layout_height="319dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/result_my_type_is"
+                android:textAlignment="center"
+                android:text="MBTI 설명 나오는 부분\n제플린 참고"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#000000">
+            </TextView>
 
+            <ImageView
+                android:layout_width="343dp"
+                android:layout_height="29dp"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="40dp"
+                android:src="@drawable/result_your_soulmate_is"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#000000">
+            </ImageView>
 
+            <TextView
+                android:layout_width="400dp"
+                android:layout_height="41dp"
+                android:layout_marginLeft="40dp"
+                android:src="@drawable/result_my_type_is"
+                android:textAlignment="center"
+                android:text="MBTI, MBTI(여기는 궁합 결과)"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#000000">
+            </TextView>
 
+            <ImageView
+                android:layout_width="343dp"
+                android:layout_height="29dp"
+                android:layout_marginLeft="70dp"
+                android:src="@drawable/result_lastword"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#000000">
+            </ImageView>
 
+            <Button
+                android:id="@+id/MbtiStartButton"
+                android:layout_width="427dp"
+                android:layout_height="65dp"
+                android:backgroundTint="#2be0b3"
+                android:layout_marginTop="48dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="63dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold"
+                android:text="호잇과 함께 여행하기">
+            </Button>
+        </LinearLayout>
 
 
     </LinearLayout>
