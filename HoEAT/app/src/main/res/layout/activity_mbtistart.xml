@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MbtiStartActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:gravity="center_horizontal"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginRight="80dp"
+                android:layout_marginLeft="80dp"
+                android:src="@drawable/login_logo" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/gaejang_bar">
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="343dp"
+                android:layout_height="37dp"
+                android:layout_marginLeft="67dp"
+                android:layout_marginTop="58dp"
+                android:layout_marginRight="67dp"
+                android:text="나의 여행 스타일 확인하기"
+                android:textAlignment="center"
+                android:textSize="25sp"
+                android:textStyle="bold">
+            </TextView>
+
+            <Button
+                android:id="@+id/MbtiStartButton"
+                android:layout_width="427dp"
+                android:layout_height="65dp"
+                android:backgroundTint="#2be0b3"
+                android:layout_marginTop="689dp"
+                android:layout_marginRight="25dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginBottom="63dp"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:text="시작하기">
+            </Button>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>

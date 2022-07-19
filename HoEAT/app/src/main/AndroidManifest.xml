@@ -31,6 +31,7 @@
         <activity android:name=".WriteReviewActivity"/>
         <activity android:name=".RestaurantActivity"/>
         <activity android:name=".FoodCategoryActivity"/>
+        <activity android:name=".MbtiStartActivity"/>
 
 
 
