@@ -448,12 +448,350 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" >
 
-                    <TextView
-                        android:id="@+id/textView3"
-                        android:layout_width="wrap_content"
+                    <LinearLayout
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="test3"
-                        android:textAppearance="?android:attr/textAppearanceMedium" />
+                        android:background="#E6E6E6"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/res_linearsw3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"/>
+
+
+                        <LinearLayout
+                            android:id="@+id/res_linearsw4"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="26dp"
+
+                            android:layout_marginTop="22dp"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="426dp"
+                                android:layout_height="1103dp"
+                                android:background="@drawable/partner_back"
+                                android:backgroundTint="@color/white"
+                                android:orientation="vertical">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="71dp"
+                                    android:orientation="horizontal">
+                                    <TextView
+                                        android:layout_width="150dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginTop="23dp"
+                                        android:layout_marginLeft="25dp"
+                                        android:textSize="22sp"
+                                        android:textStyle="bold"
+                                        android:textColor="#000000"
+                                        android:text="나의 소울메이트">
+                                    </TextView>
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="23dp"
+                                        android:src="@drawable/partner_soulmate">
+                                    </ImageView>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="250dp"
+                                    android:gravity="center_horizontal"
+                                    android:orientation="vertical"
+                                    android:layout_marginLeft="25dp"
+                                    android:layout_marginRight="25dp"
+                                    android:background="@drawable/mytravel_travel">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_horizontal"/>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_horizontal">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="0dp"
+                                            android:gravity="center_horizontal">
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="15dp"
+                                                android:layout_marginRight="5dp"
+                                                android:layout_marginLeft="20dp"
+                                                android:textColor="#000000"
+                                                android:textStyle="bold"
+                                                android:textSize="18sp"
+                                                android:text="이름\n정보\nMBTI\n일정\n음식점" />
+
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="15dp"
+                                                android:layout_marginRight="100dp"
+                                                android:layout_marginLeft="10dp"
+                                                android:textColor="#000000"
+                                                android:textStyle="normal"
+                                                android:textSize="18dp"
+                                                android:text="박송이\n23세/여자\nESFJ\n2022-07-21~22\n꽃돌게장 1번가" />
+
+                                            <ImageView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="15dp"
+                                                android:layout_marginRight="10dp"
+                                                android:src="@drawable/partner_chat"/>
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_horizontal">
+
+                                        <TextView
+                                            android:layout_width="200dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="25dp"
+                                            android:layout_marginRight="150dp"
+                                            android:layout_marginTop="6dp"
+                                            android:text="#20대 #여자 #택시"
+                                            android:textStyle="bold"
+                                            android:textColor="#2be0b3"
+                                            android:textSize="22sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_horizontal">
+
+                                        <TextView
+                                            android:layout_width="350dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="6dp"
+                                            android:layout_marginLeft="25dp"
+                                            android:text="게장 먹고 이순신광장에서 산책하면서 군것질하실분\n같이 택시타고가요~"
+                                            android:textColor="#000000"
+                                            android:textSize="15sp"
+                                            android:textStyle="normal" />
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginTop="25dp"
+                                    android:layout_marginBottom="25dp"
+                                    android:src="@drawable/partner_line">
+                                </ImageView>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="250dp"
+                                    android:gravity="center_horizontal"
+                                    android:orientation="vertical"
+                                    android:layout_marginLeft="25dp"
+                                    android:layout_marginRight="25dp"
+                                    android:layout_marginBottom="15dp"
+                                    android:background="@drawable/mytravel_travel">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_horizontal"/>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_horizontal">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="0dp"
+                                            android:gravity="center_horizontal">
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="15dp"
+                                                android:layout_marginRight="5dp"
+                                                android:layout_marginLeft="20dp"
+                                                android:textColor="#000000"
+                                                android:textStyle="bold"
+                                                android:textSize="18sp"
+                                                android:text="이름\n정보\nMBTI\n일정\n음식점" />
+
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="15dp"
+                                                android:layout_marginRight="100dp"
+                                                android:layout_marginLeft="10dp"
+                                                android:textColor="#000000"
+                                                android:textStyle="normal"
+                                                android:textSize="18dp"
+                                                android:text="백진희\n21세/여자\nESTP\n2022-07-20~20\n깨비게장" />
+
+                                            <ImageView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="15dp"
+                                                android:layout_marginRight="10dp"
+                                                android:src="@drawable/partner_chat"/>
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_horizontal">
+
+                                        <TextView
+                                            android:layout_width="200dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="25dp"
+                                            android:layout_marginRight="150dp"
+                                            android:layout_marginTop="6dp"
+                                            android:text="#20대 #무관 #무계획"
+                                            android:textStyle="bold"
+                                            android:textColor="#2be0b3"
+                                            android:textSize="22sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_horizontal">
+
+                                        <TextView
+                                            android:layout_width="350dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="6dp"
+                                            android:layout_marginLeft="25dp"
+                                            android:text="만나서 놀다가 술 한잔 하실 분~"
+                                            android:textColor="#000000"
+                                            android:textSize="15sp"
+                                            android:textStyle="normal" />
+                                    </LinearLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="250dp"
+                                    android:gravity="center_horizontal"
+                                    android:orientation="vertical"
+                                    android:layout_marginLeft="25dp"
+                                    android:layout_marginRight="25dp"
+                                    android:background="@drawable/mytravel_travel">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_horizontal"/>
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_horizontal">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="0dp"
+                                            android:gravity="center_horizontal">
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="15dp"
+                                                android:layout_marginRight="5dp"
+                                                android:layout_marginLeft="20dp"
+                                                android:textColor="#000000"
+                                                android:textStyle="bold"
+                                                android:textSize="18sp"
+                                                android:text="이름\n정보\nMBTI\n일정\n음식점" />
+
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="15dp"
+                                                android:layout_marginRight="100dp"
+                                                android:layout_marginLeft="10dp"
+                                                android:textColor="#000000"
+                                                android:textStyle="normal"
+                                                android:textSize="18dp"
+                                                android:text="김보영\n28세/여자\nESTP\n2022-07-23~24\n거북이 식당" />
+
+                                            <ImageView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="15dp"
+                                                android:layout_marginRight="10dp"
+                                                android:src="@drawable/partner_chat"/>
+                                        </LinearLayout>
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_horizontal">
+
+                                        <TextView
+                                            android:layout_width="200dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="25dp"
+                                            android:layout_marginRight="150dp"
+                                            android:layout_marginTop="6dp"
+                                            android:text="#30대 #남자 #카페"
+                                            android:textStyle="bold"
+                                            android:textColor="#2be0b3"
+                                            android:textSize="22sp" />
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:gravity="center_horizontal">
+
+                                        <TextView
+                                            android:layout_width="350dp"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="6dp"
+                                            android:layout_marginLeft="25dp"
+                                            android:text="사진찍는 거 좋아하시는 남자분 인생샷 찍어드릴게요\n~ 게장 먹고 예쁜 카페 가요!"
+                                            android:textColor="#000000"
+                                            android:textSize="15sp"
+                                            android:textStyle="normal" />
+                                    </LinearLayout>
+                                </LinearLayout>
+
+
+
+
+
+                            </LinearLayout>
+
+
+
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
                 </ScrollView>
 
             </FrameLayout>
