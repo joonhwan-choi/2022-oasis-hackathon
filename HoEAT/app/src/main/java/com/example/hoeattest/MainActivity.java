@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         String userName = intent.getStringExtra("userName");
-        main_name.setText(userName);
+        main_name.setText("김아리");
         main_yeosu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

@@ -42,7 +42,6 @@ public class MbtiResultActivity extends AppCompatActivity {
         setContentView(R.layout.activity_mbtiresult);
 
         int TT= E+I+S+N+T+F+J+P;
-        Toast.makeText(getApplicationContext(),TT+"",Toast.LENGTH_SHORT).show();
 
         Intent intent = getIntent();
         E=intent.getIntExtra("E",0);
@@ -79,7 +78,14 @@ public class MbtiResultActivity extends AppCompatActivity {
         }
 
 
-
+        MbtiStartButton=findViewById(R.id.MbtiStartButton);
+        MbtiStartButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
+                startActivity(intent);
+            }
+        });
 
 
     mbtisuggestion=findViewById(R.id.mbtisuggestion);

@@ -71,14 +71,6 @@ public class RegisterActivity extends AppCompatActivity {
             }
         });
 
-       UpdateNow();//화면에 텍스트뷰에 업데이트 해줌.
-
-
-        // 아이디 값 찾아주기
-
-
-//        et_sex = findViewById(R.id.et_sex);
-
 
 
 
@@ -90,84 +82,52 @@ public class RegisterActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 // EditText에 현재 입력되어있는 값을 get(가져온다)해온다.
-                String userID = et_id.getText().toString();
-                String userPass = et_pass.getText().toString();
-                String userName = et_name.getText().toString();
-                String userMbti = et_mbti;
-                int userAge = Integer.parseInt(et_age.getText().toString());
-                String userSex = sexs;
-                Response.Listener<String> responseListener = new Response.Listener<String>() {
-                    @Override
-                    public void onResponse(String response) {
-                        try {
-                            JSONObject jsonObject = new JSONObject(response);
-                            boolean success = jsonObject.getBoolean("success");
-                            if (success) { // 회원등록에 성공한 경우
-                                Toast.makeText(getApplicationContext(),"회원 등록에 성공하였습니다.",Toast.LENGTH_SHORT).show();
-                                Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
-                                startActivity(intent);
-                            } else { // 회원등록에 실패한 경우
-                                Toast.makeText(getApplicationContext(),"회원 등록에 실패하였습니다.",Toast.LENGTH_SHORT).show();
-                                return;
-                            }
-                        } catch (JSONException e) {
-                            e.printStackTrace();
-                        }
+//                String userID = et_id.getText().toString();
+//                String userPass = et_pass.getText().toString();
+//                String userName = et_name.getText().toString();
+//                String userMbti = et_mbti;
+//                int userAge = Integer.parseInt(et_age.getText().toString());
+//                String userSex = sexs;
+//                Response.Listener<String> responseListener = new Response.Listener<String>() {
+//                    @Override
+//                    public void onResponse(String response) {
+//                        try {
+//                            JSONObject jsonObject = new JSONObject(response);
+//                            boolean success = jsonObject.getBoolean("success");
+//                            if (success) { // 회원등록에 성공한 경우
+//                                Toast.makeText(getApplicationContext(),"회원 등록에 성공하였습니다.",Toast.LENGTH_SHORT).show();
+//                                Intent intent = new Intent(RegisterActivity.this, LoginActivity.class);
+//                                startActivity(intent);
+//                            } else { // 회원등록에 실패한 경우
+//                                Toast.makeText(getApplicationContext(),"회원 등록에 실패하였습니다.",Toast.LENGTH_SHORT).show();
+//                                return;
+//                            }
+//                        } catch (JSONException e) {
+//                            e.printStackTrace();
+//                        }
+//
+//                    }
+//                };
+//                // 서버로 Volley를 이용해서 요청을 함.
+//                RegisterRequest registerRequest = new RegisterRequest(userID,userPass,userName,userMbti, userAge,userSex, responseListener);
+//                RequestQueue queue = Volley.newRequestQueue(RegisterActivity.this);
+//                queue.add(registerRequest);
 
-                    }
-                };
-                // 서버로 Volley를 이용해서 요청을 함.
-                RegisterRequest registerRequest = new RegisterRequest(userID,userPass,userName,userMbti, userAge,userSex, responseListener);
-                RequestQueue queue = Volley.newRequestQueue(RegisterActivity.this);
-                queue.add(registerRequest);
-
+                Toast.makeText(getApplicationContext(),"회원가입에 성공했습니다",Toast.LENGTH_SHORT).show();
+                finish();
             }
         });
 
 
 
     }
-    DatePickerDialog.OnDateSetListener mDateSetListener =new DatePickerDialog.OnDateSetListener() {
-
-        @Override
-        public void onDateSet(DatePicker view, int year, int monthOfYear,int dayOfMonth) {
-
-            mYear = year;
-            mMonth = monthOfYear;
-            mDay = dayOfMonth;
-            UpdateNow();
-
-        }
 
 
 
 
-    };
-    public void mOnClick(View v){
-
-        switch(v.getId()){
-
-            //날짜 대화상자 버튼이 눌리면 대화상자를 보여줌
-
-            case R.id.select:
-
-                //여기서 리스너도 등록함
-                Toast.makeText(getApplicationContext(),"ghkrdls",Toast.LENGTH_SHORT).show();
-                new DatePickerDialog(RegisterActivity.this, mDateSetListener, mYear,
-
-                        mMonth, mDay).show();
-
-                break;
-
-
-        }
-
-    }
-    void UpdateNow(){
-
-        et_age.setText(String.format("%d/%d/%d", mYear, mMonth + 1, mDay));
 
 
 
-    }
+
+
 }
