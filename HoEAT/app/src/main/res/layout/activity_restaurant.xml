@@ -15,7 +15,7 @@
         android:paddingTop="10dp"
         android:paddingRight="10dp">
 
-            <ImageView
+        <ImageView
             android:id="@+id/resbak"
             android:layout_width="22dp"
             android:layout_height="22dp"
@@ -418,16 +418,18 @@
                                 </HorizontalScrollView>
 
 
-<!--                            <LinearLayout-->
-<!--                                android:layout_width="600dp"-->
-<!--                                android:layout_height="400dp"-->
-<!--                                android:id="@+id/map_view"-->
-<!--                                android:orientation="vertical">-->
+                                <ImageView
+                                    android:layout_width="377dp"
+                                    android:layout_height="179dp"
+                                    android:layout_marginLeft="24dp"
+                                    android:id="@+id/fmap1"
+                                    android:layout_marginTop="30dp"
+
+                                    android:background="@drawable/fmap">
 
 
 
-<!--                            </LinearLayout>-->
-
+                                </ImageView>
 
                             </LinearLayout>
 

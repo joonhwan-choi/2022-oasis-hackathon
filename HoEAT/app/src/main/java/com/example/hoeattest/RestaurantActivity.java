@@ -13,7 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import net.daum.android.map.MapView;
 
 public class RestaurantActivity extends AppCompatActivity {
-    private ImageView nv_res1,nv_res2,nv_res3,resbak,chabutton;
+    private ImageView nv_res1,nv_res2,nv_res3,resbak,chabutton,fmap1,fmap;
     private LinearLayout res_gaejang,res_linearsw1, res_linearsw2;
 
 //    private TextView tv_id, tv_pass;
@@ -23,7 +23,6 @@ public class RestaurantActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_restaurant);
-
 
 
 
@@ -48,6 +47,7 @@ public class RestaurantActivity extends AppCompatActivity {
 
 
 
+
         //네비
         nv_res1=findViewById(R.id.nv_res1);
         nv_res2=findViewById(R.id.nv_res2);
@@ -60,6 +60,9 @@ public class RestaurantActivity extends AppCompatActivity {
 
         res_linearsw2.setVisibility(View.GONE);
 //
+
+
+
 
         chabutton.setOnClickListener(new View.OnClickListener() {
             @Override
