@@ -30,8 +30,7 @@ public class MbtiQ2Activity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mbtiq2);
-        int TT= E+I+S+N+T+F+J+P;
-        Toast.makeText(getApplicationContext(),TT+"",Toast.LENGTH_SHORT).show();
+
 
         Intent intent = getIntent();
         E=intent.getIntExtra("E",0);
@@ -43,6 +42,8 @@ public class MbtiQ2Activity extends AppCompatActivity {
         J = intent.getIntExtra("J", 0);
         P = intent.getIntExtra("P", 0);
 
+        int TT= E+I+S+N+T+F+J+P;
+        Toast.makeText(getApplicationContext(),TT+"",Toast.LENGTH_SHORT).show();
 
         mbt2bak=findViewById(R.id.mbt2bak);
         MbtiTrue2=findViewById(R.id.MbtiTrue2);

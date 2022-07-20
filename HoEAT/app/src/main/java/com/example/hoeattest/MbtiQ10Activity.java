@@ -26,8 +26,7 @@ public class MbtiQ10Activity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mbtiq10);
-        int TT= E+I+S+N+T+F+J+P;
-        Toast.makeText(getApplicationContext(),TT+"",Toast.LENGTH_SHORT).show();
+
 
         Intent intent = getIntent();
         E=intent.getIntExtra("E",0);
@@ -42,7 +41,8 @@ public class MbtiQ10Activity extends AppCompatActivity {
         MbtiTrue10=findViewById(R.id.MbtiTrue10);
         MbtiFalse10=findViewById(R.id.MbtiFalse10);
         MbtiNextButton10=findViewById(R.id.MbtiNextButton10);
-
+        int TT= E+I+S+N+T+F+J+P;
+        Toast.makeText(getApplicationContext(),TT+"",Toast.LENGTH_SHORT).show();
         mbt10bak.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
