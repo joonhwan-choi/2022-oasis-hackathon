@@ -31,6 +31,7 @@
                         <ImageView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:id="@+id/chasbak"
                             android:src="@drawable/signup_back"
                             android:layout_marginLeft="25dp"
                             android:layout_marginTop="62.5dp"/>
@@ -192,7 +193,7 @@
 
                 <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="240dp">
+                android:layout_height="200dp">
                 </LinearLayout>
 
                 <LinearLayout

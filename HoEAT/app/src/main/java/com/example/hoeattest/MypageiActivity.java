@@ -28,7 +28,10 @@ public class MypageiActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
+                Intent intent = new Intent(getApplicationContext(), ChattingListActivity.class);
 
+                startActivity(intent);
+                finish();
 
             }
         });
@@ -52,10 +55,6 @@ public class MypageiActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                Intent intent = new Intent(getApplicationContext(), MainActivity.class);
-
-                startActivity(intent);
-                finish();
             }
         });
 

@@ -14,7 +14,7 @@
         android:usesCleartextTraffic="true">
 
         <activity
-            android:name=".MytripActivity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
 
@@ -25,16 +25,16 @@
 
 
         <activity android:name=".LoginActivity"/>
-        <activity android:name=".MainActivity"/>
+<!--        <activity android:name=".MainActivity"/>-->
         <activity android:name=".MbticonfirmActivity"/>
         <activity android:name=".MypageiActivity"/>
         <activity android:name=".MyreviewActivity"/>
-<!--        <activity android:name=".MytripActivity"/>-->
-        <!--        <activity android:name=".RegisterActivity" />-->
+        <activity android:name=".MytripActivity"/>
+                <activity android:name=".RegisterActivity" />
         <activity android:name=".RestaurantActivity" />
         <activity android:name=".WriteReviewActivity"/>
         <activity android:name=".FoodCategoryActivity"/>
-<!--        <activity android:name=".MbtiStartActivity"/>-->
+        <activity android:name=".MbtiStartActivity"/>
         <activity android:name=".MbtiQ1Activity"/>
         <activity android:name=".MbtiQ2Activity"/>
         <activity android:name=".MbtiQ3Activity"/>

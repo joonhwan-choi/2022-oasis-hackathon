@@ -85,6 +85,7 @@
                             android:layout_marginTop="24dp"
                             android:layout_marginRight="25dp"
                             android:layout_marginBottom="24dp"
+                            android:id="@+id/chatting1"
                             android:background="@drawable/chatting_list_box">
 
                             <LinearLayout
@@ -385,5 +386,43 @@
 
             </LinearLayout>
     </LinearLayout>
-</LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/register_edittext"
+
+            android:elevation="10dp"
+
+            android:paddingLeft="10dp"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="-50dp"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:id="@+id/nv_cha1"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nav_chatting_off"
+                android:layout_marginLeft="84.5dp"
+                android:layout_marginTop="11dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="84.5dp"
+                android:id="@+id/nv_cha2"
+                android:layout_marginTop="11dp"
+                android:src="@drawable/nav_home_on"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="84.5dp"
+                android:id="@+id/nv_cha3"
+                android:layout_marginTop="11dp"
+                android:src="@drawable/nav_mypage_off"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
 </LinearLayout>
