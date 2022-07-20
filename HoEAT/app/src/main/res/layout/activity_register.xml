@@ -70,6 +70,7 @@
                 android:drawablePadding="10dp"
                 android:inputType="textPersonName" />
             <Button
+                android:id="@+id/doublecheck"
                 android:layout_width="106dp"
                 android:layout_height="59dp"
                 android:text="중복확인"

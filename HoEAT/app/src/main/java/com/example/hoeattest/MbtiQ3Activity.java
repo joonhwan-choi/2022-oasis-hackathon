@@ -42,7 +42,7 @@ public class MbtiQ3Activity extends AppCompatActivity {
         J = intent.getIntExtra("J", 0);
         P = intent.getIntExtra("P", 0);
         int TT= E+I+S+N+T+F+J+P;
-        Toast.makeText(getApplicationContext(),TT+"",Toast.LENGTH_SHORT).show();
+
 
         mbt3bak=findViewById(R.id.mbt3bak);
         MbtiTrue3=findViewById(R.id.MbtiTrue3);

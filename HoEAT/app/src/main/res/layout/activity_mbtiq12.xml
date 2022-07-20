@@ -117,7 +117,7 @@
                 android:layout_marginBottom="63dp"
                 android:textSize="20sp"
                 android:textColor="#FFFFFF"
-                android:text="다음">
+                android:text="결과 확인하기">
             </Button>
         </LinearLayout>
 

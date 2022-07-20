@@ -60,6 +60,7 @@
                         >
 
                         <ImageView
+                            android:id="@+id/mypagei_noticeButton"
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:src="@drawable/header_bell_off"
@@ -82,6 +83,7 @@
                         />
 
                     <ImageView
+                        android:id="@+id/mypagei_rewrite"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:src="@drawable/mypage_edit"
@@ -189,6 +191,7 @@
 
 
             <TextView
+                android:id="@+id/app_notice"
                 android:layout_width="80dp"
                 android:layout_height="29dp"
                 android:text="공지사항"
@@ -196,6 +199,7 @@
                 android:layout_marginLeft="47dp"
                 android:layout_marginTop="-320dp"/>
             <TextView
+                android:id="@+id/app_inquiry"
                 android:layout_width="80dp"
                 android:layout_height="29dp"
                 android:text="문의"
@@ -204,6 +208,7 @@
                 android:layout_marginTop="80dp"/>
 
             <TextView
+                android:id="@+id/app_serviccenter"
                 android:layout_width="80dp"
                 android:layout_height="29dp"
                 android:text="고객센터"
@@ -212,6 +217,7 @@
                 android:layout_marginTop="70dp"/>
 
             <TextView
+                android:id="@+id/app_versioninfo"
                 android:layout_width="80dp"
                 android:layout_height="29dp"
                 android:text="버전정보"
@@ -260,7 +266,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/mypage_kimari"
-            android:layout_marginTop="-850dp"
+            android:layout_marginTop="-890dp"
             android:layout_marginLeft="191dp"/>
 
     </LinearLayout>

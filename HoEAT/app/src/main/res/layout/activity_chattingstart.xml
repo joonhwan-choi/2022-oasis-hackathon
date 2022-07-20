@@ -60,6 +60,7 @@
                         >
 
                         <ImageView
+                            android:id="@+id/chattingstart_noticeButton"
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:src="@drawable/header_bell_off"
@@ -207,6 +208,7 @@
                         android:layout_height="match_parent"/>
 
                     <TextView
+                        android:id="@+id/chatting_write"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
@@ -219,6 +221,7 @@
 
 
                     <ImageButton
+                        android:id="@+id/chattting_sendButton"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="15dp"
