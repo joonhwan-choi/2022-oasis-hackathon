@@ -26,6 +26,8 @@ public class MbtiQ9Activity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mbtiq9);
+        int TT= E+I+S+N+T+F+J+P;
+        Toast.makeText(getApplicationContext(),TT+"",Toast.LENGTH_SHORT).show();
 
         Intent intent = getIntent();
         E=intent.getIntExtra("E",0);
