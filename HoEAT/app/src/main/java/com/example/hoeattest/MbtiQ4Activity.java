@@ -26,8 +26,7 @@ public class MbtiQ4Activity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mbtiq4);
-        int TT= E+I+S+N+T+F+J+P;
-        Toast.makeText(getApplicationContext(),TT+"",Toast.LENGTH_SHORT).show();
+
 
         Intent intent = getIntent();
         E=intent.getIntExtra("E",0);
@@ -38,7 +37,8 @@ public class MbtiQ4Activity extends AppCompatActivity {
         F = intent.getIntExtra("F", 0);
         J = intent.getIntExtra("J", 0);
         P = intent.getIntExtra("P", 0);
-
+        int TT= E+I+S+N+T+F+J+P;
+        Toast.makeText(getApplicationContext(),TT+"",Toast.LENGTH_SHORT).show();
         mbt4bak=findViewById(R.id.mbt4bak);
         MbtiTrue4=findViewById(R.id.MbtiTrue4);
         MbtiFalse4=findViewById(R.id.MbtiFalse4);
