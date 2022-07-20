@@ -31,6 +31,8 @@ public class MbtiQ1Activity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mbtiq1);
+        int TT= E+I+S+N+T+F+J+P;
+        Toast.makeText(getApplicationContext(),TT+"",Toast.LENGTH_SHORT).show();
 
         mbt1bak=findViewById(R.id.mbt1bak);
         MbtiTrue1=findViewById(R.id.MbtiTrue1);
