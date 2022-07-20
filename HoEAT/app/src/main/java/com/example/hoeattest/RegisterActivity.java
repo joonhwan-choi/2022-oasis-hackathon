@@ -26,8 +26,9 @@ public class RegisterActivity extends AppCompatActivity {
     private EditText et_id, et_pass, et_name, et_age;
     String et_mbti;
     private Button btn_register;
-    private ImageView select;
+    private ImageView select,reg_sex;
     int mYear, mMonth, mDay, mHour, mMinute;
+    int sex=1;
     @Override
     protected void onCreate(Bundle savedInstanceState) { // 액티비티 시작시 처음으로 실행되는 생명주기!
         super.onCreate(savedInstanceState);
@@ -37,7 +38,7 @@ public class RegisterActivity extends AppCompatActivity {
         et_pass = findViewById(R.id.et_pass);
         et_name = findViewById(R.id.et_name);
         select = findViewById(R.id.select);
-
+        reg_sex=findViewById(R.id.reg_sex);
 
         et_mbti = "";
         et_age=findViewById(R.id.et_age);
@@ -53,13 +54,46 @@ public class RegisterActivity extends AppCompatActivity {
 
 
 
-//       UpdateNow();//화면에 텍스트뷰에 업데이트 해줌.
+
+        reg_sex.setOnClickListener(new View.OnClickListener(){
+
+
+            @Override
+            public void onClick(View view) {
+                if(sex==1){
+                    sex=2;
+                    reg_sex.setImageResource(R.drawable.signup_woman);
+                }else{
+                    sex=1;
+                    reg_sex.setImageResource(R.drawable.signup_men);
+                }
+
+            }
+        });
+
+       UpdateNow();//화면에 텍스트뷰에 업데이트 해줌.
 
 
         // 아이디 값 찾아주기
 
 
 //        et_sex = findViewById(R.id.et_sex);
+
+
+
+
+        select.setOnClickListener(new View.OnClickListener(){
+
+
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(),"ddddddddddddd.",Toast.LENGTH_SHORT).show();
+
+
+
+
+            }
+        });
 
         // 회원가입 버튼 클릭 시 수행
         btn_register = findViewById(R.id.btn_register);
@@ -130,7 +164,7 @@ public class RegisterActivity extends AppCompatActivity {
             case R.id.select:
 
                 //여기서 리스너도 등록함
-
+                Toast.makeText(getApplicationContext(),"ghkrdls",Toast.LENGTH_SHORT).show();
                 new DatePickerDialog(RegisterActivity.this, mDateSetListener, mYear,
 
                         mMonth, mDay).show();

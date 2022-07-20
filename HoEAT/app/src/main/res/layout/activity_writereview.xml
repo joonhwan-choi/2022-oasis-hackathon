@@ -180,5 +180,47 @@
                 </Button>
             </LinearLayout>
         </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/register_edittext"
+
+            android:elevation="10dp"
+
+            android:paddingLeft="10dp"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="-70dp"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:id="@+id/nv_wri1"
+                android:layout_height="wrap_content"
+                android:src="@drawable/nav_chatting_off"
+                android:layout_marginLeft="84.5dp"
+                android:layout_marginTop="11dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="84.5dp"
+                android:id="@+id/nv_wri2"
+                android:layout_marginTop="11dp"
+                android:src="@drawable/nav_home_off"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="84.5dp"
+                android:id="@+id/nv_wri3"
+                android:layout_marginTop="11dp"
+                android:src="@drawable/nav_mypage_on"/>
+
+        </LinearLayout>
+
+
+
+
+
+
     </LinearLayout>
 </LinearLayout>
