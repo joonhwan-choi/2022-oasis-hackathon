@@ -25,7 +25,7 @@ public class RegisterActivity extends AppCompatActivity {
 
     private EditText et_id, et_pass, et_name, et_age;
     String et_mbti;
-    private Button btn_register;
+    private Button btn_register,doublecheck;
     private ImageView select,reg_sex;
     int mYear, mMonth, mDay, mHour, mMinute;
     int sex=1;
@@ -34,7 +34,7 @@ public class RegisterActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) { // 액티비티 시작시 처음으로 실행되는 생명주기!
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
-
+        doublecheck=findViewById(R.id.doublecheck);
         et_id = findViewById(R.id.et_id);
         et_pass = findViewById(R.id.et_pass);
         et_name = findViewById(R.id.et_name);
@@ -43,15 +43,15 @@ public class RegisterActivity extends AppCompatActivity {
         et_mbti = "";
         et_age=findViewById(R.id.et_age);
 
-        Calendar cal = new GregorianCalendar();
-        mYear = cal.get(Calendar.YEAR);
-        mMonth = cal.get(Calendar.MONTH);
-        mDay = cal.get(Calendar.DAY_OF_MONTH);
-        mHour = cal.get(Calendar.HOUR_OF_DAY);
-        mMinute = cal.get(Calendar.MINUTE);
 
 
 
+        doublecheck.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(),"사용가능한 아이디입니다",Toast.LENGTH_SHORT).show();
+            }
+        });
 
         reg_sex.setOnClickListener(new View.OnClickListener(){
 
@@ -71,7 +71,7 @@ public class RegisterActivity extends AppCompatActivity {
             }
         });
 
-       UpdateNow();//화면에 텍스트뷰에 업데이트 해줌.
+
 
 
         // 아이디 값 찾아주기
@@ -85,6 +85,8 @@ public class RegisterActivity extends AppCompatActivity {
 
 
         // 회원가입 버튼 클릭 시 수행
+
+
         btn_register = findViewById(R.id.btn_register);
         btn_register.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -127,47 +129,6 @@ public class RegisterActivity extends AppCompatActivity {
 
 
     }
-    DatePickerDialog.OnDateSetListener mDateSetListener =new DatePickerDialog.OnDateSetListener() {
-
-        @Override
-        public void onDateSet(DatePicker view, int year, int monthOfYear,int dayOfMonth) {
-
-            mYear = year;
-            mMonth = monthOfYear;
-            mDay = dayOfMonth;
-            UpdateNow();
-
-        }
 
 
-
-
-    };
-    public void mOnClick(View v){
-
-        switch(v.getId()){
-
-            //날짜 대화상자 버튼이 눌리면 대화상자를 보여줌
-
-            case R.id.select:
-
-                //여기서 리스너도 등록함
-                Toast.makeText(getApplicationContext(),"ghkrdls",Toast.LENGTH_SHORT).show();
-                new DatePickerDialog(RegisterActivity.this, mDateSetListener, mYear,
-
-                        mMonth, mDay).show();
-
-                break;
-
-
-        }
-
-    }
-    void UpdateNow(){
-
-        et_age.setText(String.format("%d/%d/%d", mYear, mMonth + 1, mDay));
-
-
-
-    }
 }
