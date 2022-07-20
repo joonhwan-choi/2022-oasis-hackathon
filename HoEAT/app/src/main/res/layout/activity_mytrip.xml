@@ -198,6 +198,7 @@
                             android:layout_marginTop="15dp"
                             android:backgroundTint="#FFFFFF"
                             android:text="리뷰 남기러 가기"
+
                             android:textSize="15dp"
                             android:textColor="#2be0b3"
                             android:textStyle="bold"/>

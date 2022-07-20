@@ -232,21 +232,25 @@
                 android:textSize="30dp"
                 android:textColor="#2be0b3"
                 android:layout_marginLeft="76dp"
-                android:layout_marginTop="-510dp"/>
+                android:layout_marginTop="-510dp"
+                android:id="@+id/mytripbutton"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="45dp"
                 android:text="1"
+                android:id="@+id/myreviewbutton"
                 android:textSize="30dp"
                 android:textColor="#2be0b3"
                 android:layout_marginLeft="232dp"
                 android:layout_marginTop="-50dp"/>
             <TextView
+
                 android:layout_width="wrap_content"
                 android:layout_height="45dp"
                 android:text="5"
                 android:textSize="30dp"
                 android:textColor="#2be0b3"
+                android:id="@+id/mylikebutton"
                 android:layout_marginLeft="386dp"
                 android:layout_marginTop="-50dp"/>
         </LinearLayout>
