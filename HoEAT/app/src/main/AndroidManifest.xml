@@ -52,6 +52,8 @@
         <activity android:name=".ChattingListActivity"/>
         <activity android:name=".ChattingStartActivity"/>
         <activity android:name=".PartnerWriteActivity"/>
+        <activity android:name=".ReviewPersonActivity"/>
+
 
 
 
