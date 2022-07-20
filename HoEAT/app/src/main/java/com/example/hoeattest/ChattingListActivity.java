@@ -17,8 +17,6 @@ public class ChattingListActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_chatting_list);
 
-
-
         //네비
         nv_cha1=findViewById(R.id.nv_cha1);
         nv_cha2=findViewById(R.id.nv_cha2);

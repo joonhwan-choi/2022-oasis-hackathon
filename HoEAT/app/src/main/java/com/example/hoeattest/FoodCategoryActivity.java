@@ -39,7 +39,6 @@ public class FoodCategoryActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), RestaurantActivity.class);
                 startActivity(intent);
-//                Toast.makeText(getApplicationContext()," 실패하였습니다.",Toast.LENGTH_SHORT).show();
 
             }
         });
