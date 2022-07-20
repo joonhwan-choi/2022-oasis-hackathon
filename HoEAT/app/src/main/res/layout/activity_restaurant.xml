@@ -425,11 +425,7 @@
                                     android:id="@+id/fmap1"
                                     android:layout_marginTop="30dp"
 
-                                    android:background="@drawable/fmap">
-
-
-
-                                </ImageView>
+                                    android:background="@drawable/fmap"/>
 
                             </LinearLayout>
 
@@ -715,6 +711,8 @@
                                                 android:textSize="16sp"/>
 
                                         </LinearLayout>
+
+
                                     </LinearLayout>
 
                                     <LinearLayout
@@ -884,6 +882,7 @@
                                             android:textStyle="normal" />
 
                                     </LinearLayout>
+
                                 </LinearLayout>
 
 
@@ -897,7 +896,13 @@
 
                         </LinearLayout>
 
-
+                        <ImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:id="@+id/partner_write"
+                            android:layout_marginTop="-200dp"
+                            android:layout_marginLeft="300dp"
+                            android:src="@drawable/partner_write"/>
                     </LinearLayout>
 
 

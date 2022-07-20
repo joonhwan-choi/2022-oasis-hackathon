@@ -130,7 +130,16 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="24dp"
                         android:layout_marginRight="25dp"
-                        android:background="@drawable/chatting_mytalk">
+                        android:background="@drawable/chatting_mytalk"
+
+                        >
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/white"
+                            android:text=" 안녕하세요 송이님 꽃돌 게장 1번가 \n가시는건가요??"/>
                     </LinearLayout>
                 </LinearLayout>
 
@@ -151,12 +160,21 @@
                         android:elevation="1dp"
                         android:layout_marginTop="24dp"
                         android:background="@drawable/chatting_yourtalk">
+
+                        <TextView
+                            android:layout_width="250dp"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_marginLeft="10dp"
+                            android:textColor="@color/black"
+                            android:text="안녕하세요, 아리님! 네 꽃돌게장 간 \n 다음 돌산대교 갈 예정입니다:)"/>
                     </LinearLayout>
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    >
 
                     <View
                         android:layout_width="0dp"
@@ -168,33 +186,44 @@
                         android:layout_height="wrap_content"
                         android:layout_marginTop="24dp"
                         android:layout_marginRight="25dp"
+                        android:id="@+id/fcha1"
                         android:background="@drawable/chatting_mytalk">
                     </LinearLayout>
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/fcha2"
+                        android:orientation="horizontal">
 
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="60dp"
-                        android:layout_marginLeft="25dp"
-                        android:background="@drawable/chatting_your_img">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="60dp"
+                            android:layout_marginLeft="25dp"
+
+                            android:background="@drawable/chatting_your_img">
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:elevation="1dp"
+                            android:layout_marginTop="24dp"
+                            android:background="@drawable/chatting_yourtalk">
+                        </LinearLayout>
                     </LinearLayout>
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:elevation="1dp"
-                        android:layout_marginTop="24dp"
-                        android:background="@drawable/chatting_yourtalk">
-                    </LinearLayout>
+
                 </LinearLayout>
 
                 <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="200dp">
+                    android:layout_width="match_parent"
+                android:layout_height="170dp">
                 </LinearLayout>
 
                 <LinearLayout
@@ -209,9 +238,10 @@
 
                     <TextView
                         android:id="@+id/chatting_write"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="325dp"
+                        android:layout_height="50dp"
                         android:layout_marginTop="15dp"
+                        android:hint="sdfdsfds"
                         android:background="@drawable/chatting_write_box">
                     </TextView>
 
@@ -220,13 +250,14 @@
                         android:layout_height="match_parent"/>
 
 
-                    <ImageButton
+                    <Button
                         android:id="@+id/chattting_sendButton"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginTop="15dp"
+
+                        android:layout_width="92dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="25dp"
                         android:background="@drawable/chatting_send">
-                    </ImageButton>
+                    </Button>
                 </LinearLayout>
             </LinearLayout>
     </LinearLayout>
