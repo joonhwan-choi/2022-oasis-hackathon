@@ -49,6 +49,9 @@
         <activity android:name=".MbtiQ11Activity"/>
         <activity android:name=".MbtiQ12Activity"/>
         <activity android:name=".MbtiResultActivity"/>
+        <activity android:name=".ChattingListActivity"/>
+        <activity android:name=".ChattingStartActivity"/>
+        <activity android:name=".PartnerWriteActivity"/>
 
 
 
