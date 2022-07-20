@@ -156,20 +156,18 @@
             android:layout_height="wrap_content">
 
 
-
-            <Button
-                android:layout_width="214dp"
+            <ImageView
+                android:layout_width="427dp"
                 android:layout_height="59dp"
-                android:text="남성"
                 android:layout_marginLeft="25dp"
-                android:textSize="18dp"
-                android:textColor="@color/white"/>
-            <Button
-                android:layout_width="214dp"
-                android:layout_height="59dp"
-                android:text="여성"
-                android:textSize="18dp"
-                android:textColor="@color/white"/>
+                android:id="@+id/reg_sex"
+                android:src="@drawable/signup_men"
+
+                />
+
+
+
+
 
         </LinearLayout>
 `       <LinearLayout
