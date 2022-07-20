@@ -29,6 +29,7 @@ public class RegisterActivity extends AppCompatActivity {
     private ImageView select,reg_sex;
     int mYear, mMonth, mDay, mHour, mMinute;
     int sex=1;
+    String sexs;
     @Override
     protected void onCreate(Bundle savedInstanceState) { // 액티비티 시작시 처음으로 실행되는 생명주기!
         super.onCreate(savedInstanceState);
@@ -37,13 +38,10 @@ public class RegisterActivity extends AppCompatActivity {
         et_id = findViewById(R.id.et_id);
         et_pass = findViewById(R.id.et_pass);
         et_name = findViewById(R.id.et_name);
-        select = findViewById(R.id.select);
         reg_sex=findViewById(R.id.reg_sex);
 
         et_mbti = "";
         et_age=findViewById(R.id.et_age);
-        et_age.setFocusable(false);
-        et_age.setClickable(false);
 
         Calendar cal = new GregorianCalendar();
         mYear = cal.get(Calendar.YEAR);
@@ -62,9 +60,11 @@ public class RegisterActivity extends AppCompatActivity {
             public void onClick(View view) {
                 if(sex==1){
                     sex=2;
+                    sexs="남";
                     reg_sex.setImageResource(R.drawable.signup_woman);
                 }else{
                     sex=1;
+                    sexs="여";
                     reg_sex.setImageResource(R.drawable.signup_men);
                 }
 
@@ -82,18 +82,7 @@ public class RegisterActivity extends AppCompatActivity {
 
 
 
-        select.setOnClickListener(new View.OnClickListener(){
 
-
-            @Override
-            public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"ddddddddddddd.",Toast.LENGTH_SHORT).show();
-
-
-
-
-            }
-        });
 
         // 회원가입 버튼 클릭 시 수행
         btn_register = findViewById(R.id.btn_register);
@@ -106,8 +95,7 @@ public class RegisterActivity extends AppCompatActivity {
                 String userName = et_name.getText().toString();
                 String userMbti = et_mbti;
                 int userAge = Integer.parseInt(et_age.getText().toString());
-//                String userSex = et_sex.getText().toString();
-                String userSex = "";
+                String userSex = sexs;
                 Response.Listener<String> responseListener = new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
