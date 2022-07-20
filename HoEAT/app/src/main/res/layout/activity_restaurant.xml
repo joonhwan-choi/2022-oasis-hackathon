@@ -617,6 +617,7 @@
                                             android:layout_marginTop="6dp"
                                             android:layout_marginLeft="40dp"
                                             android:src="@drawable/partner_chat"
+                                            android:id="@+id/chabutton"
                                             android:textColor="#000000"
                                             android:textSize="15sp"
                                             android:textStyle="normal" />

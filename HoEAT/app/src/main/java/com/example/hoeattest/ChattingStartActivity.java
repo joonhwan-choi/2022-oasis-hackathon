@@ -12,9 +12,12 @@ ImageView chasbak ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_chattingstart);
+
+
+
         chasbak=findViewById(R.id.chasbak);
-
-
         chasbak.setOnClickListener(new View.OnClickListener(){
 
 
@@ -25,8 +28,6 @@ ImageView chasbak ;
         });
 
 
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_chattingstart);
     }
 }
 

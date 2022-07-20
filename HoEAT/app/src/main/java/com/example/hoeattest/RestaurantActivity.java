@@ -3,13 +3,15 @@ package com.example.hoeattest;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TabHost;
 import androidx.appcompat.app.AppCompatActivity;
 public class RestaurantActivity extends AppCompatActivity {
-    private ImageView nv_res1,nv_res2,nv_res3,resbak;
+    private ImageView nv_res1,nv_res2,nv_res3,resbak,chabutton;
     private LinearLayout res_gaejang,res_linearsw1, res_linearsw2;
+
 //    private TextView tv_id, tv_pass;
 
 
@@ -34,6 +36,8 @@ public class RestaurantActivity extends AppCompatActivity {
         tab_host.setCurrentTab(0);
 
 
+
+
         //네비
         nv_res1=findViewById(R.id.nv_res1);
         nv_res2=findViewById(R.id.nv_res2);
@@ -42,14 +46,30 @@ public class RestaurantActivity extends AppCompatActivity {
         //
         res_linearsw1=findViewById(R.id.res_linearsw1);
         res_linearsw2=findViewById(R.id.res_linearsw2);
+        chabutton=findViewById(R.id.chabutton);
 
         res_linearsw2.setVisibility(View.GONE);
 //
 
+        chabutton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), ChattingStartActivity.class);
 
+                startActivity(intent);
+                finish();
+
+
+
+            }
+        });
 
 
         res_gaejang=findViewById(R.id.res_gaejang);
+
+
+
+
 
         res_gaejang.setOnClickListener(new View.OnClickListener() {
             @Override
