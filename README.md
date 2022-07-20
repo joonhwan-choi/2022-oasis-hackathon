@@ -1,9 +1,8 @@
-# How-about-Yeosu-
-oasis-joonhwan-choi created by GitHub Classroom
 Project name or Logo
-![178138225-3a1e530d-f4e6-4c02-a16f-cadb8d164fc6](https://user-images.githubusercontent.com/83737075/180097772-3d54816d-d6af-46b5-82c4-5d8865d081c5.png)
+<img width="610" alt="177029265-0068fb26-2104-474c-96e4-058d5d7152bb" src="https://user-images.githubusercontent.com/83737075/180098106-b5789a71-2c92-47bb-8b0f-fb6d463713cf.png">
 
 
+프로젝트명 또는 프로젝트 로고 이미지 (택1)
 
 프로잭트 소개
 설명 기입
@@ -14,13 +13,12 @@ ECMAScript 6 지원 브라우저 사용
 권장: Google Chrome 버젼 77 이상
 기술 스택 (Technique Used)
 Server(back-end)
-nodejs, php, java 등 서버 언어 버전
-express, laravel, sptring boot 등 사용한 프레임워크
-DB 등 사용한 다른 프로그램
+python, Django, SQLite
+기타 라이브러리
 Front-end
-react.js, vue.js 등 사용한 front-end 프레임워크
-UI framework
-기타 사용한 라이브러리
+html, css, javascript, jquery
+UI(framework)
+기타 라이브러리
 설치 안내 (Installation Process)
 $ git clone git주소
 $ yarn or npm install
@@ -33,7 +31,5 @@ $ yarn start or npm run start
 편한 마크다운 에디터를 찾아서 사용 샘플 에디터 https://stackedit.io/app#
 
 팀 정보 (Team Information)
-hong gil dong (hong999@gmail.com), Github Id: gildong999
-kim su ji (suji999@gmail.com), Github Id: suji999
-저작권 및 사용권 정보 (Copyleft / End User License)
-MIT
+jeong ji hun (wlgns2234@naver.com), Github Id:jihunJeong
+lee jun hyeok (ly0609@naver.com), Github Id:ly0609
