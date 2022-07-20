@@ -3,11 +3,15 @@ package com.example.hoeattest;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TabHost;
 import androidx.appcompat.app.AppCompatActivity;
+
+import net.daum.android.map.MapView;
+
 public class RestaurantActivity extends AppCompatActivity {
     private ImageView nv_res1,nv_res2,nv_res3,resbak,chabutton;
     private LinearLayout res_gaejang,res_linearsw1, res_linearsw2;
@@ -19,8 +23,14 @@ public class RestaurantActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_restaurant);
+
+
+
+
         TabHost tab_host = (TabHost) findViewById(R.id.tabhost);
         tab_host.setup();
+
+
 
         TabHost.TabSpec ts1 = tab_host.newTabSpec("맛집찾기");
         ts1.setIndicator("맛집찾기");

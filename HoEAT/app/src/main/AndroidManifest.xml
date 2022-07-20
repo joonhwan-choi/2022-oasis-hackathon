@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.hoeattest">
-    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET">
+    </uses-permission>
+
 
 
     <application
@@ -14,7 +16,7 @@
         android:usesCleartextTraffic="true">
 
         <activity
-            android:name=".MainActivity"
+            android:name=".RestaurantActivity"
             android:exported="true">
             <intent-filter>
 
@@ -25,13 +27,13 @@
 
 
         <activity android:name=".LoginActivity"/>
-<!--        <activity android:name=".MainActivity"/>-->
+        <activity android:name=".MainActivity"/>
         <activity android:name=".MbticonfirmActivity"/>
         <activity android:name=".MypageiActivity"/>
         <activity android:name=".MyreviewActivity"/>
         <activity android:name=".MytripActivity"/>
                 <activity android:name=".RegisterActivity" />
-        <activity android:name=".RestaurantActivity" />
+<!--        <activity android:name=".RestaurantActivity" />-->
         <activity android:name=".WriteReviewActivity"/>
         <activity android:name=".FoodCategoryActivity"/>
         <activity android:name=".MbtiStartActivity"/>

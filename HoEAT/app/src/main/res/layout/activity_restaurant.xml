@@ -418,15 +418,16 @@
                                 </HorizontalScrollView>
 
 
-                                <LinearLayout
-                                    android:layout_width="377dp"
-                                    android:layout_height="179dp"
-                                    android:layout_marginLeft="24dp"
-                                    android:background="@drawable/res_map">
+<!--                            <LinearLayout-->
+<!--                                android:layout_width="600dp"-->
+<!--                                android:layout_height="400dp"-->
+<!--                                android:id="@+id/map_view"-->
+<!--                                android:orientation="vertical">-->
 
 
 
-                                </LinearLayout>
+<!--                            </LinearLayout>-->
+
 
                             </LinearLayout>
 
