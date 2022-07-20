@@ -41,6 +41,7 @@
                 android:textColor="#000000"/>
 
             <ImageButton
+                android:id="@+id/mytrip_noticeButton"
                 android:layout_width="22dp"
                 android:layout_height="22dp"
                 android:layout_marginLeft="50dp"

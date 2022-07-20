@@ -60,6 +60,7 @@
                         >
 
                         <ImageView
+                            android:id="@+id/chatiing_list_noticeButton"
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:src="@drawable/header_bell_off"

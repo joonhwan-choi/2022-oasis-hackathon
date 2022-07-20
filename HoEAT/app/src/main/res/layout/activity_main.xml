@@ -27,6 +27,7 @@
                 android:layout_marginLeft="50dp"
                 android:src="@drawable/login_logo" />
             <ImageView
+                android:id="@+id/main_noticeButton"
                 android:layout_width="22dp"
                 android:layout_height="22dp"
                 android:layout_marginTop="50dp"
@@ -83,6 +84,7 @@
             android:background="@drawable/main_searchbar"
             android:gravity="center_horizontal">
             <EditText
+                android:id="@+id/search_city"
                 android:layout_width="300dp"
                 android:layout_height="65dp"
                 android:layout_marginTop="10dp"
@@ -93,6 +95,7 @@
                 />
 
             <ImageButton
+                android:id="@+id/search_button"
                 android:layout_width="42dp"
                 android:layout_height="43dp"
                 android:layout_marginTop="20dp"
@@ -143,12 +146,14 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent">
                     <ImageView
+                        android:id="@+id/mainbutton_gwangju"
                         android:layout_width="90dp"
                         android:layout_height="89dp"
                         android:src="@drawable/main_gwangju"
                         android:layout_marginRight="8dp"/>
 
                     <ImageView
+                        android:id="@+id/mainbutton_jeonju"
                         android:layout_width="90dp"
                         android:layout_height="89dp"
                         android:src="@drawable/main_jeonju"
@@ -160,11 +165,13 @@
                         android:id="@+id/main_yeosu"
                         android:layout_marginRight="8dp"/>
                     <ImageView
+                        android:id="@+id/mainbutton_suncheon"
                         android:layout_width="90dp"
                         android:layout_height="89dp"
                         android:src="@drawable/main_suncheon"
                         android:layout_marginRight="8dp"/>
                     <ImageView
+                        android:id="@+id/mainbutton_gunsan"
                         android:layout_width="90dp"
                         android:layout_height="89dp"
                         android:src="@drawable/main_gunsan"
@@ -209,6 +216,7 @@
                     android:orientation="vertical">
 
                     <LinearLayout
+                        android:id="@+id/main_RecommendedFood_soycrab"
                         android:layout_width="match_parent"
                         android:layout_height="111dp"
                         android:orientation="vertical"

@@ -38,7 +38,7 @@ public class MbtiQ7Activity extends AppCompatActivity {
         J = intent.getIntExtra("J", 0);
         P = intent.getIntExtra("P", 0);
         int TT= E+I+S+N+T+F+J+P;
-        Toast.makeText(getApplicationContext(),TT+"",Toast.LENGTH_SHORT).show();
+
         mbt7bak=findViewById(R.id.mbt7bak);
         MbtiTrue7=findViewById(R.id.MbtiTrue7);
         MbtiFalse7=findViewById(R.id.MbtiFalse7);

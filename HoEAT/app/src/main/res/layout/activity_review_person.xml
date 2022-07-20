@@ -60,6 +60,7 @@
                         >
 
                         <ImageView
+                            android:id="@+id/review_person_noticeButton"
                             android:layout_width="wrap_content"
                             android:layout_height="match_parent"
                             android:src="@drawable/header_bell_off"
@@ -142,6 +143,8 @@
                                     android:orientation="horizontal">
 
                                     <LinearLayout
+                                        android:id="@+id/review_person_good"
+                                        android:orientation="horizontal"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_marginLeft="99dp"
@@ -150,6 +153,8 @@
                                         android:background="@drawable/review_not_good"/>
 
                                     <LinearLayout
+                                        android:id="@+id/review_person_bad"
+                                        android:orientation="horizontal"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_marginTop="15dp"
@@ -205,6 +210,7 @@
                             android:background="@drawable/review_write_boc">
 
                             <LinearLayout
+                                android:id="@+id/write_trip_review"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:orientation="vertical">
@@ -224,6 +230,7 @@
 
 
                     <Button
+                        android:id="@+id/review_person_completedButton"
                         android:layout_width="427dp"
                         android:layout_height="65dp"
                         android:layout_gravity="center"
