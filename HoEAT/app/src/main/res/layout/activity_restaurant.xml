@@ -65,7 +65,7 @@
                 android:layout_height="fill_parent" >
 
                 <ScrollView
-                    android:id="@+id/맛집찾기"
+                    android:id="@+id/동행찾기"
                     android:layout_width="fill_parent"
                     android:layout_height="fill_parent"
                     android:background="#E6E6E6">
@@ -444,9 +444,10 @@
                 </ScrollView>
 
                 <ScrollView
-                    android:id="@+id/동행찾기"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
+                    android:id="@+id/맛집찾기"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="#E6E6E6">
 
                     <LinearLayout
                         android:layout_width="match_parent"
@@ -539,7 +540,7 @@
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
                                                 android:layout_marginTop="15dp"
-                                                android:layout_marginRight="100dp"
+                                                android:layout_marginRight="70dp"
                                                 android:layout_marginLeft="10dp"
                                                 android:textColor="#000000"
                                                 android:textStyle="normal"
@@ -549,9 +550,33 @@
                                             <ImageView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
+                                                android:layout_marginTop="16dp"
+                                                android:layout_marginRight="5dp"
+                                                android:src="@drawable/parter_good"/>
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
                                                 android:layout_marginTop="15dp"
                                                 android:layout_marginRight="10dp"
-                                                android:src="@drawable/partner_chat"/>
+                                                android:text="2"
+                                                android:textSize="16sp"/>
+
+                                            <ImageView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="20dp"
+                                                android:layout_marginRight="5dp"
+                                                android:src="@drawable/partner_bad"/>
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="15dp"
+                                                android:layout_marginRight="10dp"
+                                                android:text="0"
+                                                android:textSize="16sp"/>
+
                                         </LinearLayout>
                                     </LinearLayout>
 
@@ -578,14 +603,24 @@
                                         android:gravity="center_horizontal">
 
                                         <TextView
-                                            android:layout_width="350dp"
+                                            android:layout_width="246dp"
                                             android:layout_height="wrap_content"
-                                            android:layout_marginTop="6dp"
-                                            android:layout_marginLeft="25dp"
+                                            android:layout_marginLeft="5dp"
                                             android:text="게장 먹고 이순신광장에서 산책하면서 군것질하실분\n같이 택시타고가요~"
                                             android:textColor="#000000"
                                             android:textSize="15sp"
                                             android:textStyle="normal" />
+
+                                        <ImageView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="6dp"
+                                            android:layout_marginLeft="40dp"
+                                            android:src="@drawable/partner_chat"
+                                            android:textColor="#000000"
+                                            android:textSize="15sp"
+                                            android:textStyle="normal" />
+
                                     </LinearLayout>
                                 </LinearLayout>
 
@@ -605,7 +640,6 @@
                                     android:orientation="vertical"
                                     android:layout_marginLeft="25dp"
                                     android:layout_marginRight="25dp"
-                                    android:layout_marginBottom="15dp"
                                     android:background="@drawable/mytravel_travel">
 
                                     <LinearLayout
@@ -639,7 +673,7 @@
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
                                                 android:layout_marginTop="15dp"
-                                                android:layout_marginRight="100dp"
+                                                android:layout_marginRight="70dp"
                                                 android:layout_marginLeft="10dp"
                                                 android:textColor="#000000"
                                                 android:textStyle="normal"
@@ -649,9 +683,33 @@
                                             <ImageView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
+                                                android:layout_marginTop="16dp"
+                                                android:layout_marginRight="5dp"
+                                                android:src="@drawable/parter_good"/>
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
                                                 android:layout_marginTop="15dp"
                                                 android:layout_marginRight="10dp"
-                                                android:src="@drawable/partner_chat"/>
+                                                android:text="2"
+                                                android:textSize="16sp"/>
+
+                                            <ImageView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="20dp"
+                                                android:layout_marginRight="5dp"
+                                                android:src="@drawable/partner_bad"/>
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="15dp"
+                                                android:layout_marginRight="10dp"
+                                                android:text="0"
+                                                android:textSize="16sp"/>
+
                                         </LinearLayout>
                                     </LinearLayout>
 
@@ -678,14 +736,25 @@
                                         android:gravity="center_horizontal">
 
                                         <TextView
-                                            android:layout_width="350dp"
+                                            android:layout_width="246dp"
                                             android:layout_height="wrap_content"
-                                            android:layout_marginTop="6dp"
-                                            android:layout_marginLeft="25dp"
-                                            android:text="만나서 놀다가 술 한잔 하실 분~"
+                                            android:layout_marginLeft="5dp"
+                                            android:layout_marginTop="10dp"
+                                            android:text="만나서 놀다가 술 한잔 하실분~"
                                             android:textColor="#000000"
                                             android:textSize="15sp"
                                             android:textStyle="normal" />
+
+                                        <ImageView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="6dp"
+                                            android:layout_marginLeft="40dp"
+                                            android:src="@drawable/partner_chat"
+                                            android:textColor="#000000"
+                                            android:textSize="15sp"
+                                            android:textStyle="normal" />
+
                                     </LinearLayout>
                                 </LinearLayout>
 
@@ -729,7 +798,7 @@
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
                                                 android:layout_marginTop="15dp"
-                                                android:layout_marginRight="100dp"
+                                                android:layout_marginRight="70dp"
                                                 android:layout_marginLeft="10dp"
                                                 android:textColor="#000000"
                                                 android:textStyle="normal"
@@ -739,9 +808,33 @@
                                             <ImageView
                                                 android:layout_width="wrap_content"
                                                 android:layout_height="wrap_content"
+                                                android:layout_marginTop="16dp"
+                                                android:layout_marginRight="5dp"
+                                                android:src="@drawable/parter_good"/>
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
                                                 android:layout_marginTop="15dp"
                                                 android:layout_marginRight="10dp"
-                                                android:src="@drawable/partner_chat"/>
+                                                android:text="2"
+                                                android:textSize="16sp"/>
+
+                                            <ImageView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="20dp"
+                                                android:layout_marginRight="5dp"
+                                                android:src="@drawable/partner_bad"/>
+
+                                            <TextView
+                                                android:layout_width="wrap_content"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginTop="15dp"
+                                                android:layout_marginRight="10dp"
+                                                android:text="0"
+                                                android:textSize="16sp"/>
+
                                         </LinearLayout>
                                     </LinearLayout>
 
@@ -768,14 +861,24 @@
                                         android:gravity="center_horizontal">
 
                                         <TextView
-                                            android:layout_width="350dp"
+                                            android:layout_width="246dp"
                                             android:layout_height="wrap_content"
-                                            android:layout_marginTop="6dp"
-                                            android:layout_marginLeft="25dp"
-                                            android:text="사진찍는 거 좋아하시는 남자분 인생샷 찍어드릴게요\n~ 게장 먹고 예쁜 카페 가요!"
+                                            android:layout_marginLeft="5dp"
+                                            android:text="사진찍는 거 좋아하시는 남자분 인생샷 찍어드릴게요~\n게장 먹고 예쁜 카페 가요!"
                                             android:textColor="#000000"
                                             android:textSize="15sp"
                                             android:textStyle="normal" />
+
+                                        <ImageView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="6dp"
+                                            android:layout_marginLeft="40dp"
+                                            android:src="@drawable/partner_chat"
+                                            android:textColor="#000000"
+                                            android:textSize="15sp"
+                                            android:textStyle="normal" />
+
                                     </LinearLayout>
                                 </LinearLayout>
 
@@ -792,6 +895,8 @@
 
 
                     </LinearLayout>
+
+
                 </ScrollView>
 
             </FrameLayout>
