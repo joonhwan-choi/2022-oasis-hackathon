@@ -4,10 +4,9 @@
 
 <img width="610" alt="177029265-0068fb26-2104-474c-96e4-058d5d7152bb" src="https://user-images.githubusercontent.com/83737075/180098106-b5789a71-2c92-47bb-8b0f-fb6d463713cf.png">
 
-![login_logo](https://user-images.githubusercontent.com/83737075/180099387-9edc52b3-ad9a-42c9-8312-da1c40c0c096.png)
-
-
 ### 여수어때 팀 -호잇[Eat]
+
+![login_logo](https://user-images.githubusercontent.com/83737075/180099387-9edc52b3-ad9a-42c9-8312-da1c40c0c096.png)
 
 # 프로잭트 소개
 
@@ -20,18 +19,21 @@
 * 권장: Google Chrome 버젼 77 이상
 
 # 기술 스택 
+
 Android Studio
+
 Java
-xml
+
+Xml
+
 php
-mysql
-xd
-zeplin
 
+Mysql
 
+Xd
 
-사용방법
-* Android Studio를 이용한 어플리케이션
+Zeplin
+
 
 
 # 팀 정보 (Team Information)
