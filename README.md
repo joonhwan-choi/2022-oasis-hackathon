@@ -1,23 +1,25 @@
+#  호남을 잇;EAT다 
+
+🏝 제3회 오아시스 해커톤 (Oasis Hackathon)🏝
 
 <img width="610" alt="177029265-0068fb26-2104-474c-96e4-058d5d7152bb" src="https://user-images.githubusercontent.com/83737075/180098106-b5789a71-2c92-47bb-8b0f-fb6d463713cf.png">
 
 ![login_logo](https://user-images.githubusercontent.com/83737075/180099387-9edc52b3-ad9a-42c9-8312-da1c40c0c096.png)
 
 
-여수어때 팀 -호잇[Eat]
+### 여수어때 팀 -호잇[Eat]
 
-프로잭트 소개
-설명 기입
-기능 설명
-설명 기입
+# 프로잭트 소개
 
+호남을 잇;EAT다. 호잇은 펜데믹이 정리되는 분위기 속 최근 국내여행객들이 늘어나 관광 산업이 다시 활성화 되는 추세입니다. 그 중 호남지역으로 혼자 여행을 가는 사람들을 타겟으로 동행자와 여행지를 매칭해주는 서비스입니다.
 
 
-컴퓨터 구성 / 필수 조건 안내 (Prerequisites)
-ECMAScript 6 지원 브라우저 사용
-권장: Google Chrome 버젼 77 이상
 
-기술 스택 
+# 컴퓨터 구성 / 필수 조건 안내 (Prerequisites)
+* 인터넷 연결
+* 권장: Google Chrome 버젼 77 이상
+
+# 기술 스택 
 Android Studio
 Java
 xml
@@ -28,24 +30,15 @@ zeplin
 
 
 
-Server(back-end)
-python, Django, SQLite
-기타 라이브러리
-Front-end
-html, css, javascript, jquery
-UI(framework)
-기타 라이브러리
-
-
 사용방법
-안드로이드 어플리케이션을 사용
+* Android Studio를 이용한 어플리케이션
 
 
 # 팀 정보 (Team Information)
-* Hyeonji Choi(choihyonji7074@gmail.com)
-* kim jeongeun (qew315@naver.com)
-* Leehayan (dlgkdis801)
-* Joonhwan Chio (joonhwan8764@naver.com)
+* 최현지 (choihyonji7074@gmail.com)
+* 김정은 (qew315@naver.com)
+* 이하얀 (dlgkdis801)
+* 최준환 (joonhwan8764@naver.com)
 
 
 
@@ -56,5 +49,6 @@ UI(framework)
 
 
 https://youtu.be/oo7BZv9XZOs
+
 
 
