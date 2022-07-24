@@ -39,7 +39,7 @@ Zeplin
 # 팀 정보 (Team Information)
 * 최현지 (choihyonji7074@gmail.com)
 * 김정은 (qew315@naver.com)
-* 이하얀 (dlgkdis801)
+* 이하얀 (dlgkdis801@gmail.com)
 * 최준환 (joonhwan8764@naver.com)
 
 
