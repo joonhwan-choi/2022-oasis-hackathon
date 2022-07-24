@@ -41,12 +41,11 @@ UI(framework)
 안드로이드 어플리케이션을 사용
 
 
-팀 정보 
-
-Hyeonji Choi(choihyonji7074@gmail.com)
-kim jeongeun (qew315@naver.com)
-Leehayan (dlgkdis801)
-Joonhwan Chio (joonhwan8764@naver.com)
+# 팀 정보 (Team Information)
+* Hyeonji Choi(choihyonji7074@gmail.com)
+* kim jeongeun (qew315@naver.com)
+* Leehayan (dlgkdis801)
+* Joonhwan Chio (joonhwan8764@naver.com)
 
 
 
